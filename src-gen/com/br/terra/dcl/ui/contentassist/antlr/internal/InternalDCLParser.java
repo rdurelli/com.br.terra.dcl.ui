@@ -172,21 +172,21 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
     // $ANTLR end "ruleModel"
 
 
-    // $ANTLR start "entryRuleStructureElement"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:88:1: entryRuleStructureElement : ruleStructureElement EOF ;
-    public final void entryRuleStructureElement() throws RecognitionException {
+    // $ANTLR start "entryRuleDCLStructureElement"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:88:1: entryRuleDCLStructureElement : ruleDCLStructureElement EOF ;
+    public final void entryRuleDCLStructureElement() throws RecognitionException {
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:89:1: ( ruleStructureElement EOF )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:90:1: ruleStructureElement EOF
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:89:1: ( ruleDCLStructureElement EOF )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:90:1: ruleDCLStructureElement EOF
             {
-             before(grammarAccess.getStructureElementRule()); 
-            pushFollow(FOLLOW_ruleStructureElement_in_entryRuleStructureElement121);
-            ruleStructureElement();
+             before(grammarAccess.getDCLStructureElementRule()); 
+            pushFollow(FOLLOW_ruleDCLStructureElement_in_entryRuleDCLStructureElement121);
+            ruleDCLStructureElement();
 
             state._fsp--;
 
-             after(grammarAccess.getStructureElementRule()); 
-            match(input,EOF,FOLLOW_EOF_in_entryRuleStructureElement128); 
+             after(grammarAccess.getDCLStructureElementRule()); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleDCLStructureElement128); 
 
             }
 
@@ -199,35 +199,35 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "entryRuleStructureElement"
+    // $ANTLR end "entryRuleDCLStructureElement"
 
 
-    // $ANTLR start "ruleStructureElement"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:97:1: ruleStructureElement : ( ( rule__StructureElement__Alternatives ) ) ;
-    public final void ruleStructureElement() throws RecognitionException {
+    // $ANTLR start "ruleDCLStructureElement"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:97:1: ruleDCLStructureElement : ( ( rule__DCLStructureElement__Alternatives ) ) ;
+    public final void ruleDCLStructureElement() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:101:2: ( ( ( rule__StructureElement__Alternatives ) ) )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:102:1: ( ( rule__StructureElement__Alternatives ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:101:2: ( ( ( rule__DCLStructureElement__Alternatives ) ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:102:1: ( ( rule__DCLStructureElement__Alternatives ) )
             {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:102:1: ( ( rule__StructureElement__Alternatives ) )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:103:1: ( rule__StructureElement__Alternatives )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:102:1: ( ( rule__DCLStructureElement__Alternatives ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:103:1: ( rule__DCLStructureElement__Alternatives )
             {
-             before(grammarAccess.getStructureElementAccess().getAlternatives()); 
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:104:1: ( rule__StructureElement__Alternatives )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:104:2: rule__StructureElement__Alternatives
+             before(grammarAccess.getDCLStructureElementAccess().getAlternatives()); 
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:104:1: ( rule__DCLStructureElement__Alternatives )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:104:2: rule__DCLStructureElement__Alternatives
             {
-            pushFollow(FOLLOW_rule__StructureElement__Alternatives_in_ruleStructureElement154);
-            rule__StructureElement__Alternatives();
+            pushFollow(FOLLOW_rule__DCLStructureElement__Alternatives_in_ruleDCLStructureElement154);
+            rule__DCLStructureElement__Alternatives();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getStructureElementAccess().getAlternatives()); 
+             after(grammarAccess.getDCLStructureElementAccess().getAlternatives()); 
 
             }
 
@@ -246,24 +246,24 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "ruleStructureElement"
+    // $ANTLR end "ruleDCLStructureElement"
 
 
-    // $ANTLR start "entryRuleLayer"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:116:1: entryRuleLayer : ruleLayer EOF ;
-    public final void entryRuleLayer() throws RecognitionException {
+    // $ANTLR start "entryRuleDCLLayer"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:116:1: entryRuleDCLLayer : ruleDCLLayer EOF ;
+    public final void entryRuleDCLLayer() throws RecognitionException {
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:117:1: ( ruleLayer EOF )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:118:1: ruleLayer EOF
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:117:1: ( ruleDCLLayer EOF )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:118:1: ruleDCLLayer EOF
             {
-             before(grammarAccess.getLayerRule()); 
-            pushFollow(FOLLOW_ruleLayer_in_entryRuleLayer181);
-            ruleLayer();
+             before(grammarAccess.getDCLLayerRule()); 
+            pushFollow(FOLLOW_ruleDCLLayer_in_entryRuleDCLLayer181);
+            ruleDCLLayer();
 
             state._fsp--;
 
-             after(grammarAccess.getLayerRule()); 
-            match(input,EOF,FOLLOW_EOF_in_entryRuleLayer188); 
+             after(grammarAccess.getDCLLayerRule()); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleDCLLayer188); 
 
             }
 
@@ -276,35 +276,35 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "entryRuleLayer"
+    // $ANTLR end "entryRuleDCLLayer"
 
 
-    // $ANTLR start "ruleLayer"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:125:1: ruleLayer : ( ( rule__Layer__Group__0 ) ) ;
-    public final void ruleLayer() throws RecognitionException {
+    // $ANTLR start "ruleDCLLayer"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:125:1: ruleDCLLayer : ( ( rule__DCLLayer__Group__0 ) ) ;
+    public final void ruleDCLLayer() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:129:2: ( ( ( rule__Layer__Group__0 ) ) )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:130:1: ( ( rule__Layer__Group__0 ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:129:2: ( ( ( rule__DCLLayer__Group__0 ) ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:130:1: ( ( rule__DCLLayer__Group__0 ) )
             {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:130:1: ( ( rule__Layer__Group__0 ) )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:131:1: ( rule__Layer__Group__0 )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:130:1: ( ( rule__DCLLayer__Group__0 ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:131:1: ( rule__DCLLayer__Group__0 )
             {
-             before(grammarAccess.getLayerAccess().getGroup()); 
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:132:1: ( rule__Layer__Group__0 )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:132:2: rule__Layer__Group__0
+             before(grammarAccess.getDCLLayerAccess().getGroup()); 
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:132:1: ( rule__DCLLayer__Group__0 )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:132:2: rule__DCLLayer__Group__0
             {
-            pushFollow(FOLLOW_rule__Layer__Group__0_in_ruleLayer214);
-            rule__Layer__Group__0();
+            pushFollow(FOLLOW_rule__DCLLayer__Group__0_in_ruleDCLLayer214);
+            rule__DCLLayer__Group__0();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getLayerAccess().getGroup()); 
+             after(grammarAccess.getDCLLayerAccess().getGroup()); 
 
             }
 
@@ -323,24 +323,24 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "ruleLayer"
+    // $ANTLR end "ruleDCLLayer"
 
 
-    // $ANTLR start "entryRuleComponent"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:144:1: entryRuleComponent : ruleComponent EOF ;
-    public final void entryRuleComponent() throws RecognitionException {
+    // $ANTLR start "entryRuleDCLComponent"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:144:1: entryRuleDCLComponent : ruleDCLComponent EOF ;
+    public final void entryRuleDCLComponent() throws RecognitionException {
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:145:1: ( ruleComponent EOF )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:146:1: ruleComponent EOF
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:145:1: ( ruleDCLComponent EOF )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:146:1: ruleDCLComponent EOF
             {
-             before(grammarAccess.getComponentRule()); 
-            pushFollow(FOLLOW_ruleComponent_in_entryRuleComponent241);
-            ruleComponent();
+             before(grammarAccess.getDCLComponentRule()); 
+            pushFollow(FOLLOW_ruleDCLComponent_in_entryRuleDCLComponent241);
+            ruleDCLComponent();
 
             state._fsp--;
 
-             after(grammarAccess.getComponentRule()); 
-            match(input,EOF,FOLLOW_EOF_in_entryRuleComponent248); 
+             after(grammarAccess.getDCLComponentRule()); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleDCLComponent248); 
 
             }
 
@@ -353,35 +353,35 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "entryRuleComponent"
+    // $ANTLR end "entryRuleDCLComponent"
 
 
-    // $ANTLR start "ruleComponent"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:153:1: ruleComponent : ( ( rule__Component__Group__0 ) ) ;
-    public final void ruleComponent() throws RecognitionException {
+    // $ANTLR start "ruleDCLComponent"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:153:1: ruleDCLComponent : ( ( rule__DCLComponent__Group__0 ) ) ;
+    public final void ruleDCLComponent() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:157:2: ( ( ( rule__Component__Group__0 ) ) )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:158:1: ( ( rule__Component__Group__0 ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:157:2: ( ( ( rule__DCLComponent__Group__0 ) ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:158:1: ( ( rule__DCLComponent__Group__0 ) )
             {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:158:1: ( ( rule__Component__Group__0 ) )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:159:1: ( rule__Component__Group__0 )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:158:1: ( ( rule__DCLComponent__Group__0 ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:159:1: ( rule__DCLComponent__Group__0 )
             {
-             before(grammarAccess.getComponentAccess().getGroup()); 
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:160:1: ( rule__Component__Group__0 )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:160:2: rule__Component__Group__0
+             before(grammarAccess.getDCLComponentAccess().getGroup()); 
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:160:1: ( rule__DCLComponent__Group__0 )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:160:2: rule__DCLComponent__Group__0
             {
-            pushFollow(FOLLOW_rule__Component__Group__0_in_ruleComponent274);
-            rule__Component__Group__0();
+            pushFollow(FOLLOW_rule__DCLComponent__Group__0_in_ruleDCLComponent274);
+            rule__DCLComponent__Group__0();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getComponentAccess().getGroup()); 
+             after(grammarAccess.getDCLComponentAccess().getGroup()); 
 
             }
 
@@ -400,24 +400,24 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "ruleComponent"
+    // $ANTLR end "ruleDCLComponent"
 
 
-    // $ANTLR start "entryRuleSubSystem"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:172:1: entryRuleSubSystem : ruleSubSystem EOF ;
-    public final void entryRuleSubSystem() throws RecognitionException {
+    // $ANTLR start "entryRuleDCLSubSystem"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:172:1: entryRuleDCLSubSystem : ruleDCLSubSystem EOF ;
+    public final void entryRuleDCLSubSystem() throws RecognitionException {
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:173:1: ( ruleSubSystem EOF )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:174:1: ruleSubSystem EOF
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:173:1: ( ruleDCLSubSystem EOF )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:174:1: ruleDCLSubSystem EOF
             {
-             before(grammarAccess.getSubSystemRule()); 
-            pushFollow(FOLLOW_ruleSubSystem_in_entryRuleSubSystem301);
-            ruleSubSystem();
+             before(grammarAccess.getDCLSubSystemRule()); 
+            pushFollow(FOLLOW_ruleDCLSubSystem_in_entryRuleDCLSubSystem301);
+            ruleDCLSubSystem();
 
             state._fsp--;
 
-             after(grammarAccess.getSubSystemRule()); 
-            match(input,EOF,FOLLOW_EOF_in_entryRuleSubSystem308); 
+             after(grammarAccess.getDCLSubSystemRule()); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleDCLSubSystem308); 
 
             }
 
@@ -430,35 +430,35 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "entryRuleSubSystem"
+    // $ANTLR end "entryRuleDCLSubSystem"
 
 
-    // $ANTLR start "ruleSubSystem"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:181:1: ruleSubSystem : ( ( rule__SubSystem__Group__0 ) ) ;
-    public final void ruleSubSystem() throws RecognitionException {
+    // $ANTLR start "ruleDCLSubSystem"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:181:1: ruleDCLSubSystem : ( ( rule__DCLSubSystem__Group__0 ) ) ;
+    public final void ruleDCLSubSystem() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:185:2: ( ( ( rule__SubSystem__Group__0 ) ) )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:186:1: ( ( rule__SubSystem__Group__0 ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:185:2: ( ( ( rule__DCLSubSystem__Group__0 ) ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:186:1: ( ( rule__DCLSubSystem__Group__0 ) )
             {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:186:1: ( ( rule__SubSystem__Group__0 ) )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:187:1: ( rule__SubSystem__Group__0 )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:186:1: ( ( rule__DCLSubSystem__Group__0 ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:187:1: ( rule__DCLSubSystem__Group__0 )
             {
-             before(grammarAccess.getSubSystemAccess().getGroup()); 
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:188:1: ( rule__SubSystem__Group__0 )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:188:2: rule__SubSystem__Group__0
+             before(grammarAccess.getDCLSubSystemAccess().getGroup()); 
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:188:1: ( rule__DCLSubSystem__Group__0 )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:188:2: rule__DCLSubSystem__Group__0
             {
-            pushFollow(FOLLOW_rule__SubSystem__Group__0_in_ruleSubSystem334);
-            rule__SubSystem__Group__0();
+            pushFollow(FOLLOW_rule__DCLSubSystem__Group__0_in_ruleDCLSubSystem334);
+            rule__DCLSubSystem__Group__0();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getSubSystemAccess().getGroup()); 
+             after(grammarAccess.getDCLSubSystemAccess().getGroup()); 
 
             }
 
@@ -477,24 +477,24 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "ruleSubSystem"
+    // $ANTLR end "ruleDCLSubSystem"
 
 
-    // $ANTLR start "entryRuleArchitectureView"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:200:1: entryRuleArchitectureView : ruleArchitectureView EOF ;
-    public final void entryRuleArchitectureView() throws RecognitionException {
+    // $ANTLR start "entryRuleDCLArchitectureView"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:200:1: entryRuleDCLArchitectureView : ruleDCLArchitectureView EOF ;
+    public final void entryRuleDCLArchitectureView() throws RecognitionException {
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:201:1: ( ruleArchitectureView EOF )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:202:1: ruleArchitectureView EOF
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:201:1: ( ruleDCLArchitectureView EOF )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:202:1: ruleDCLArchitectureView EOF
             {
-             before(grammarAccess.getArchitectureViewRule()); 
-            pushFollow(FOLLOW_ruleArchitectureView_in_entryRuleArchitectureView361);
-            ruleArchitectureView();
+             before(grammarAccess.getDCLArchitectureViewRule()); 
+            pushFollow(FOLLOW_ruleDCLArchitectureView_in_entryRuleDCLArchitectureView361);
+            ruleDCLArchitectureView();
 
             state._fsp--;
 
-             after(grammarAccess.getArchitectureViewRule()); 
-            match(input,EOF,FOLLOW_EOF_in_entryRuleArchitectureView368); 
+             after(grammarAccess.getDCLArchitectureViewRule()); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleDCLArchitectureView368); 
 
             }
 
@@ -507,35 +507,35 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "entryRuleArchitectureView"
+    // $ANTLR end "entryRuleDCLArchitectureView"
 
 
-    // $ANTLR start "ruleArchitectureView"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:209:1: ruleArchitectureView : ( ( rule__ArchitectureView__Group__0 ) ) ;
-    public final void ruleArchitectureView() throws RecognitionException {
+    // $ANTLR start "ruleDCLArchitectureView"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:209:1: ruleDCLArchitectureView : ( ( rule__DCLArchitectureView__Group__0 ) ) ;
+    public final void ruleDCLArchitectureView() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:213:2: ( ( ( rule__ArchitectureView__Group__0 ) ) )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:214:1: ( ( rule__ArchitectureView__Group__0 ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:213:2: ( ( ( rule__DCLArchitectureView__Group__0 ) ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:214:1: ( ( rule__DCLArchitectureView__Group__0 ) )
             {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:214:1: ( ( rule__ArchitectureView__Group__0 ) )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:215:1: ( rule__ArchitectureView__Group__0 )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:214:1: ( ( rule__DCLArchitectureView__Group__0 ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:215:1: ( rule__DCLArchitectureView__Group__0 )
             {
-             before(grammarAccess.getArchitectureViewAccess().getGroup()); 
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:216:1: ( rule__ArchitectureView__Group__0 )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:216:2: rule__ArchitectureView__Group__0
+             before(grammarAccess.getDCLArchitectureViewAccess().getGroup()); 
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:216:1: ( rule__DCLArchitectureView__Group__0 )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:216:2: rule__DCLArchitectureView__Group__0
             {
-            pushFollow(FOLLOW_rule__ArchitectureView__Group__0_in_ruleArchitectureView394);
-            rule__ArchitectureView__Group__0();
+            pushFollow(FOLLOW_rule__DCLArchitectureView__Group__0_in_ruleDCLArchitectureView394);
+            rule__DCLArchitectureView__Group__0();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getArchitectureViewAccess().getGroup()); 
+             after(grammarAccess.getDCLArchitectureViewAccess().getGroup()); 
 
             }
 
@@ -554,24 +554,24 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "ruleArchitectureView"
+    // $ANTLR end "ruleDCLArchitectureView"
 
 
-    // $ANTLR start "entryRuleSoftwareSystem"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:228:1: entryRuleSoftwareSystem : ruleSoftwareSystem EOF ;
-    public final void entryRuleSoftwareSystem() throws RecognitionException {
+    // $ANTLR start "entryRuleDCLSoftwareSystem"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:228:1: entryRuleDCLSoftwareSystem : ruleDCLSoftwareSystem EOF ;
+    public final void entryRuleDCLSoftwareSystem() throws RecognitionException {
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:229:1: ( ruleSoftwareSystem EOF )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:230:1: ruleSoftwareSystem EOF
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:229:1: ( ruleDCLSoftwareSystem EOF )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:230:1: ruleDCLSoftwareSystem EOF
             {
-             before(grammarAccess.getSoftwareSystemRule()); 
-            pushFollow(FOLLOW_ruleSoftwareSystem_in_entryRuleSoftwareSystem421);
-            ruleSoftwareSystem();
+             before(grammarAccess.getDCLSoftwareSystemRule()); 
+            pushFollow(FOLLOW_ruleDCLSoftwareSystem_in_entryRuleDCLSoftwareSystem421);
+            ruleDCLSoftwareSystem();
 
             state._fsp--;
 
-             after(grammarAccess.getSoftwareSystemRule()); 
-            match(input,EOF,FOLLOW_EOF_in_entryRuleSoftwareSystem428); 
+             after(grammarAccess.getDCLSoftwareSystemRule()); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleDCLSoftwareSystem428); 
 
             }
 
@@ -584,35 +584,35 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "entryRuleSoftwareSystem"
+    // $ANTLR end "entryRuleDCLSoftwareSystem"
 
 
-    // $ANTLR start "ruleSoftwareSystem"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:237:1: ruleSoftwareSystem : ( ( rule__SoftwareSystem__Group__0 ) ) ;
-    public final void ruleSoftwareSystem() throws RecognitionException {
+    // $ANTLR start "ruleDCLSoftwareSystem"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:237:1: ruleDCLSoftwareSystem : ( ( rule__DCLSoftwareSystem__Group__0 ) ) ;
+    public final void ruleDCLSoftwareSystem() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:241:2: ( ( ( rule__SoftwareSystem__Group__0 ) ) )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:242:1: ( ( rule__SoftwareSystem__Group__0 ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:241:2: ( ( ( rule__DCLSoftwareSystem__Group__0 ) ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:242:1: ( ( rule__DCLSoftwareSystem__Group__0 ) )
             {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:242:1: ( ( rule__SoftwareSystem__Group__0 ) )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:243:1: ( rule__SoftwareSystem__Group__0 )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:242:1: ( ( rule__DCLSoftwareSystem__Group__0 ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:243:1: ( rule__DCLSoftwareSystem__Group__0 )
             {
-             before(grammarAccess.getSoftwareSystemAccess().getGroup()); 
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:244:1: ( rule__SoftwareSystem__Group__0 )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:244:2: rule__SoftwareSystem__Group__0
+             before(grammarAccess.getDCLSoftwareSystemAccess().getGroup()); 
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:244:1: ( rule__DCLSoftwareSystem__Group__0 )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:244:2: rule__DCLSoftwareSystem__Group__0
             {
-            pushFollow(FOLLOW_rule__SoftwareSystem__Group__0_in_ruleSoftwareSystem454);
-            rule__SoftwareSystem__Group__0();
+            pushFollow(FOLLOW_rule__DCLSoftwareSystem__Group__0_in_ruleDCLSoftwareSystem454);
+            rule__DCLSoftwareSystem__Group__0();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getSoftwareSystemAccess().getGroup()); 
+             after(grammarAccess.getDCLSoftwareSystemAccess().getGroup()); 
 
             }
 
@@ -631,7 +631,7 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "ruleSoftwareSystem"
+    // $ANTLR end "ruleDCLSoftwareSystem"
 
 
     // $ANTLR start "entryRuleDCDecl"
@@ -1327,14 +1327,14 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
     // $ANTLR end "ruleEntityType"
 
 
-    // $ANTLR start "rule__StructureElement__Alternatives"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:508:1: rule__StructureElement__Alternatives : ( ( ruleLayer ) | ( ruleComponent ) | ( ruleSubSystem ) | ( ruleArchitectureView ) | ( ruleSoftwareSystem ) );
-    public final void rule__StructureElement__Alternatives() throws RecognitionException {
+    // $ANTLR start "rule__DCLStructureElement__Alternatives"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:508:1: rule__DCLStructureElement__Alternatives : ( ( ruleDCLLayer ) | ( ruleDCLComponent ) | ( ruleDCLSubSystem ) | ( ruleDCLArchitectureView ) | ( ruleDCLSoftwareSystem ) );
+    public final void rule__DCLStructureElement__Alternatives() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:512:1: ( ( ruleLayer ) | ( ruleComponent ) | ( ruleSubSystem ) | ( ruleArchitectureView ) | ( ruleSoftwareSystem ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:512:1: ( ( ruleDCLLayer ) | ( ruleDCLComponent ) | ( ruleDCLSubSystem ) | ( ruleDCLArchitectureView ) | ( ruleDCLSoftwareSystem ) )
             int alt1=5;
             switch ( input.LA(1) ) {
             case 25:
@@ -1371,18 +1371,18 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
 
             switch (alt1) {
                 case 1 :
-                    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:513:1: ( ruleLayer )
+                    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:513:1: ( ruleDCLLayer )
                     {
-                    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:513:1: ( ruleLayer )
-                    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:514:1: ruleLayer
+                    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:513:1: ( ruleDCLLayer )
+                    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:514:1: ruleDCLLayer
                     {
-                     before(grammarAccess.getStructureElementAccess().getLayerParserRuleCall_0()); 
-                    pushFollow(FOLLOW_ruleLayer_in_rule__StructureElement__Alternatives1030);
-                    ruleLayer();
+                     before(grammarAccess.getDCLStructureElementAccess().getDCLLayerParserRuleCall_0()); 
+                    pushFollow(FOLLOW_ruleDCLLayer_in_rule__DCLStructureElement__Alternatives1030);
+                    ruleDCLLayer();
 
                     state._fsp--;
 
-                     after(grammarAccess.getStructureElementAccess().getLayerParserRuleCall_0()); 
+                     after(grammarAccess.getDCLStructureElementAccess().getDCLLayerParserRuleCall_0()); 
 
                     }
 
@@ -1390,18 +1390,18 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
                     }
                     break;
                 case 2 :
-                    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:519:6: ( ruleComponent )
+                    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:519:6: ( ruleDCLComponent )
                     {
-                    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:519:6: ( ruleComponent )
-                    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:520:1: ruleComponent
+                    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:519:6: ( ruleDCLComponent )
+                    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:520:1: ruleDCLComponent
                     {
-                     before(grammarAccess.getStructureElementAccess().getComponentParserRuleCall_1()); 
-                    pushFollow(FOLLOW_ruleComponent_in_rule__StructureElement__Alternatives1047);
-                    ruleComponent();
+                     before(grammarAccess.getDCLStructureElementAccess().getDCLComponentParserRuleCall_1()); 
+                    pushFollow(FOLLOW_ruleDCLComponent_in_rule__DCLStructureElement__Alternatives1047);
+                    ruleDCLComponent();
 
                     state._fsp--;
 
-                     after(grammarAccess.getStructureElementAccess().getComponentParserRuleCall_1()); 
+                     after(grammarAccess.getDCLStructureElementAccess().getDCLComponentParserRuleCall_1()); 
 
                     }
 
@@ -1409,18 +1409,18 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
                     }
                     break;
                 case 3 :
-                    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:525:6: ( ruleSubSystem )
+                    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:525:6: ( ruleDCLSubSystem )
                     {
-                    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:525:6: ( ruleSubSystem )
-                    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:526:1: ruleSubSystem
+                    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:525:6: ( ruleDCLSubSystem )
+                    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:526:1: ruleDCLSubSystem
                     {
-                     before(grammarAccess.getStructureElementAccess().getSubSystemParserRuleCall_2()); 
-                    pushFollow(FOLLOW_ruleSubSystem_in_rule__StructureElement__Alternatives1064);
-                    ruleSubSystem();
+                     before(grammarAccess.getDCLStructureElementAccess().getDCLSubSystemParserRuleCall_2()); 
+                    pushFollow(FOLLOW_ruleDCLSubSystem_in_rule__DCLStructureElement__Alternatives1064);
+                    ruleDCLSubSystem();
 
                     state._fsp--;
 
-                     after(grammarAccess.getStructureElementAccess().getSubSystemParserRuleCall_2()); 
+                     after(grammarAccess.getDCLStructureElementAccess().getDCLSubSystemParserRuleCall_2()); 
 
                     }
 
@@ -1428,18 +1428,18 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
                     }
                     break;
                 case 4 :
-                    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:531:6: ( ruleArchitectureView )
+                    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:531:6: ( ruleDCLArchitectureView )
                     {
-                    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:531:6: ( ruleArchitectureView )
-                    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:532:1: ruleArchitectureView
+                    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:531:6: ( ruleDCLArchitectureView )
+                    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:532:1: ruleDCLArchitectureView
                     {
-                     before(grammarAccess.getStructureElementAccess().getArchitectureViewParserRuleCall_3()); 
-                    pushFollow(FOLLOW_ruleArchitectureView_in_rule__StructureElement__Alternatives1081);
-                    ruleArchitectureView();
+                     before(grammarAccess.getDCLStructureElementAccess().getDCLArchitectureViewParserRuleCall_3()); 
+                    pushFollow(FOLLOW_ruleDCLArchitectureView_in_rule__DCLStructureElement__Alternatives1081);
+                    ruleDCLArchitectureView();
 
                     state._fsp--;
 
-                     after(grammarAccess.getStructureElementAccess().getArchitectureViewParserRuleCall_3()); 
+                     after(grammarAccess.getDCLStructureElementAccess().getDCLArchitectureViewParserRuleCall_3()); 
 
                     }
 
@@ -1447,18 +1447,18 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
                     }
                     break;
                 case 5 :
-                    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:537:6: ( ruleSoftwareSystem )
+                    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:537:6: ( ruleDCLSoftwareSystem )
                     {
-                    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:537:6: ( ruleSoftwareSystem )
-                    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:538:1: ruleSoftwareSystem
+                    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:537:6: ( ruleDCLSoftwareSystem )
+                    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:538:1: ruleDCLSoftwareSystem
                     {
-                     before(grammarAccess.getStructureElementAccess().getSoftwareSystemParserRuleCall_4()); 
-                    pushFollow(FOLLOW_ruleSoftwareSystem_in_rule__StructureElement__Alternatives1098);
-                    ruleSoftwareSystem();
+                     before(grammarAccess.getDCLStructureElementAccess().getDCLSoftwareSystemParserRuleCall_4()); 
+                    pushFollow(FOLLOW_ruleDCLSoftwareSystem_in_rule__DCLStructureElement__Alternatives1098);
+                    ruleDCLSoftwareSystem();
 
                     state._fsp--;
 
-                     after(grammarAccess.getStructureElementAccess().getSoftwareSystemParserRuleCall_4()); 
+                     after(grammarAccess.getDCLStructureElementAccess().getDCLSoftwareSystemParserRuleCall_4()); 
 
                     }
 
@@ -1479,7 +1479,7 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__StructureElement__Alternatives"
+    // $ANTLR end "rule__DCLStructureElement__Alternatives"
 
 
     // $ANTLR start "rule__DCDecl__Alternatives"
@@ -2670,23 +2670,23 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
     // $ANTLR end "rule__Model__Group__7__Impl"
 
 
-    // $ANTLR start "rule__Layer__Group__0"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:972:1: rule__Layer__Group__0 : rule__Layer__Group__0__Impl rule__Layer__Group__1 ;
-    public final void rule__Layer__Group__0() throws RecognitionException {
+    // $ANTLR start "rule__DCLLayer__Group__0"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:972:1: rule__DCLLayer__Group__0 : rule__DCLLayer__Group__0__Impl rule__DCLLayer__Group__1 ;
+    public final void rule__DCLLayer__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:976:1: ( rule__Layer__Group__0__Impl rule__Layer__Group__1 )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:977:2: rule__Layer__Group__0__Impl rule__Layer__Group__1
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:976:1: ( rule__DCLLayer__Group__0__Impl rule__DCLLayer__Group__1 )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:977:2: rule__DCLLayer__Group__0__Impl rule__DCLLayer__Group__1
             {
-            pushFollow(FOLLOW_rule__Layer__Group__0__Impl_in_rule__Layer__Group__02017);
-            rule__Layer__Group__0__Impl();
+            pushFollow(FOLLOW_rule__DCLLayer__Group__0__Impl_in_rule__DCLLayer__Group__02017);
+            rule__DCLLayer__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__Layer__Group__1_in_rule__Layer__Group__02020);
-            rule__Layer__Group__1();
+            pushFollow(FOLLOW_rule__DCLLayer__Group__1_in_rule__DCLLayer__Group__02020);
+            rule__DCLLayer__Group__1();
 
             state._fsp--;
 
@@ -2705,12 +2705,12 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__Layer__Group__0"
+    // $ANTLR end "rule__DCLLayer__Group__0"
 
 
-    // $ANTLR start "rule__Layer__Group__0__Impl"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:984:1: rule__Layer__Group__0__Impl : ( 'layer' ) ;
-    public final void rule__Layer__Group__0__Impl() throws RecognitionException {
+    // $ANTLR start "rule__DCLLayer__Group__0__Impl"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:984:1: rule__DCLLayer__Group__0__Impl : ( 'layer' ) ;
+    public final void rule__DCLLayer__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
@@ -2721,9 +2721,9 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:989:1: ( 'layer' )
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:990:1: 'layer'
             {
-             before(grammarAccess.getLayerAccess().getLayerKeyword_0()); 
-            match(input,25,FOLLOW_25_in_rule__Layer__Group__0__Impl2048); 
-             after(grammarAccess.getLayerAccess().getLayerKeyword_0()); 
+             before(grammarAccess.getDCLLayerAccess().getLayerKeyword_0()); 
+            match(input,25,FOLLOW_25_in_rule__DCLLayer__Group__0__Impl2048); 
+             after(grammarAccess.getDCLLayerAccess().getLayerKeyword_0()); 
 
             }
 
@@ -2742,26 +2742,26 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__Layer__Group__0__Impl"
+    // $ANTLR end "rule__DCLLayer__Group__0__Impl"
 
 
-    // $ANTLR start "rule__Layer__Group__1"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1003:1: rule__Layer__Group__1 : rule__Layer__Group__1__Impl rule__Layer__Group__2 ;
-    public final void rule__Layer__Group__1() throws RecognitionException {
+    // $ANTLR start "rule__DCLLayer__Group__1"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1003:1: rule__DCLLayer__Group__1 : rule__DCLLayer__Group__1__Impl rule__DCLLayer__Group__2 ;
+    public final void rule__DCLLayer__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1007:1: ( rule__Layer__Group__1__Impl rule__Layer__Group__2 )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1008:2: rule__Layer__Group__1__Impl rule__Layer__Group__2
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1007:1: ( rule__DCLLayer__Group__1__Impl rule__DCLLayer__Group__2 )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1008:2: rule__DCLLayer__Group__1__Impl rule__DCLLayer__Group__2
             {
-            pushFollow(FOLLOW_rule__Layer__Group__1__Impl_in_rule__Layer__Group__12079);
-            rule__Layer__Group__1__Impl();
+            pushFollow(FOLLOW_rule__DCLLayer__Group__1__Impl_in_rule__DCLLayer__Group__12079);
+            rule__DCLLayer__Group__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__Layer__Group__2_in_rule__Layer__Group__12082);
-            rule__Layer__Group__2();
+            pushFollow(FOLLOW_rule__DCLLayer__Group__2_in_rule__DCLLayer__Group__12082);
+            rule__DCLLayer__Group__2();
 
             state._fsp--;
 
@@ -2780,35 +2780,35 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__Layer__Group__1"
+    // $ANTLR end "rule__DCLLayer__Group__1"
 
 
-    // $ANTLR start "rule__Layer__Group__1__Impl"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1015:1: rule__Layer__Group__1__Impl : ( ( rule__Layer__NameAssignment_1 ) ) ;
-    public final void rule__Layer__Group__1__Impl() throws RecognitionException {
+    // $ANTLR start "rule__DCLLayer__Group__1__Impl"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1015:1: rule__DCLLayer__Group__1__Impl : ( ( rule__DCLLayer__NameAssignment_1 ) ) ;
+    public final void rule__DCLLayer__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1019:1: ( ( ( rule__Layer__NameAssignment_1 ) ) )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1020:1: ( ( rule__Layer__NameAssignment_1 ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1019:1: ( ( ( rule__DCLLayer__NameAssignment_1 ) ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1020:1: ( ( rule__DCLLayer__NameAssignment_1 ) )
             {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1020:1: ( ( rule__Layer__NameAssignment_1 ) )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1021:1: ( rule__Layer__NameAssignment_1 )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1020:1: ( ( rule__DCLLayer__NameAssignment_1 ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1021:1: ( rule__DCLLayer__NameAssignment_1 )
             {
-             before(grammarAccess.getLayerAccess().getNameAssignment_1()); 
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1022:1: ( rule__Layer__NameAssignment_1 )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1022:2: rule__Layer__NameAssignment_1
+             before(grammarAccess.getDCLLayerAccess().getNameAssignment_1()); 
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1022:1: ( rule__DCLLayer__NameAssignment_1 )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1022:2: rule__DCLLayer__NameAssignment_1
             {
-            pushFollow(FOLLOW_rule__Layer__NameAssignment_1_in_rule__Layer__Group__1__Impl2109);
-            rule__Layer__NameAssignment_1();
+            pushFollow(FOLLOW_rule__DCLLayer__NameAssignment_1_in_rule__DCLLayer__Group__1__Impl2109);
+            rule__DCLLayer__NameAssignment_1();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getLayerAccess().getNameAssignment_1()); 
+             after(grammarAccess.getDCLLayerAccess().getNameAssignment_1()); 
 
             }
 
@@ -2827,21 +2827,21 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__Layer__Group__1__Impl"
+    // $ANTLR end "rule__DCLLayer__Group__1__Impl"
 
 
-    // $ANTLR start "rule__Layer__Group__2"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1032:1: rule__Layer__Group__2 : rule__Layer__Group__2__Impl ;
-    public final void rule__Layer__Group__2() throws RecognitionException {
+    // $ANTLR start "rule__DCLLayer__Group__2"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1032:1: rule__DCLLayer__Group__2 : rule__DCLLayer__Group__2__Impl ;
+    public final void rule__DCLLayer__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1036:1: ( rule__Layer__Group__2__Impl )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1037:2: rule__Layer__Group__2__Impl
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1036:1: ( rule__DCLLayer__Group__2__Impl )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1037:2: rule__DCLLayer__Group__2__Impl
             {
-            pushFollow(FOLLOW_rule__Layer__Group__2__Impl_in_rule__Layer__Group__22139);
-            rule__Layer__Group__2__Impl();
+            pushFollow(FOLLOW_rule__DCLLayer__Group__2__Impl_in_rule__DCLLayer__Group__22139);
+            rule__DCLLayer__Group__2__Impl();
 
             state._fsp--;
 
@@ -2860,12 +2860,12 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__Layer__Group__2"
+    // $ANTLR end "rule__DCLLayer__Group__2"
 
 
-    // $ANTLR start "rule__Layer__Group__2__Impl"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1043:1: rule__Layer__Group__2__Impl : ( ';' ) ;
-    public final void rule__Layer__Group__2__Impl() throws RecognitionException {
+    // $ANTLR start "rule__DCLLayer__Group__2__Impl"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1043:1: rule__DCLLayer__Group__2__Impl : ( ';' ) ;
+    public final void rule__DCLLayer__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
@@ -2876,9 +2876,9 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1048:1: ( ';' )
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1049:1: ';'
             {
-             before(grammarAccess.getLayerAccess().getSemicolonKeyword_2()); 
-            match(input,26,FOLLOW_26_in_rule__Layer__Group__2__Impl2167); 
-             after(grammarAccess.getLayerAccess().getSemicolonKeyword_2()); 
+             before(grammarAccess.getDCLLayerAccess().getSemicolonKeyword_2()); 
+            match(input,26,FOLLOW_26_in_rule__DCLLayer__Group__2__Impl2167); 
+             after(grammarAccess.getDCLLayerAccess().getSemicolonKeyword_2()); 
 
             }
 
@@ -2897,26 +2897,26 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__Layer__Group__2__Impl"
+    // $ANTLR end "rule__DCLLayer__Group__2__Impl"
 
 
-    // $ANTLR start "rule__Component__Group__0"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1068:1: rule__Component__Group__0 : rule__Component__Group__0__Impl rule__Component__Group__1 ;
-    public final void rule__Component__Group__0() throws RecognitionException {
+    // $ANTLR start "rule__DCLComponent__Group__0"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1068:1: rule__DCLComponent__Group__0 : rule__DCLComponent__Group__0__Impl rule__DCLComponent__Group__1 ;
+    public final void rule__DCLComponent__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1072:1: ( rule__Component__Group__0__Impl rule__Component__Group__1 )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1073:2: rule__Component__Group__0__Impl rule__Component__Group__1
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1072:1: ( rule__DCLComponent__Group__0__Impl rule__DCLComponent__Group__1 )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1073:2: rule__DCLComponent__Group__0__Impl rule__DCLComponent__Group__1
             {
-            pushFollow(FOLLOW_rule__Component__Group__0__Impl_in_rule__Component__Group__02204);
-            rule__Component__Group__0__Impl();
+            pushFollow(FOLLOW_rule__DCLComponent__Group__0__Impl_in_rule__DCLComponent__Group__02204);
+            rule__DCLComponent__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__Component__Group__1_in_rule__Component__Group__02207);
-            rule__Component__Group__1();
+            pushFollow(FOLLOW_rule__DCLComponent__Group__1_in_rule__DCLComponent__Group__02207);
+            rule__DCLComponent__Group__1();
 
             state._fsp--;
 
@@ -2935,12 +2935,12 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__Component__Group__0"
+    // $ANTLR end "rule__DCLComponent__Group__0"
 
 
-    // $ANTLR start "rule__Component__Group__0__Impl"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1080:1: rule__Component__Group__0__Impl : ( 'component' ) ;
-    public final void rule__Component__Group__0__Impl() throws RecognitionException {
+    // $ANTLR start "rule__DCLComponent__Group__0__Impl"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1080:1: rule__DCLComponent__Group__0__Impl : ( 'component' ) ;
+    public final void rule__DCLComponent__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
@@ -2951,9 +2951,9 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1085:1: ( 'component' )
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1086:1: 'component'
             {
-             before(grammarAccess.getComponentAccess().getComponentKeyword_0()); 
-            match(input,27,FOLLOW_27_in_rule__Component__Group__0__Impl2235); 
-             after(grammarAccess.getComponentAccess().getComponentKeyword_0()); 
+             before(grammarAccess.getDCLComponentAccess().getComponentKeyword_0()); 
+            match(input,27,FOLLOW_27_in_rule__DCLComponent__Group__0__Impl2235); 
+             after(grammarAccess.getDCLComponentAccess().getComponentKeyword_0()); 
 
             }
 
@@ -2972,26 +2972,26 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__Component__Group__0__Impl"
+    // $ANTLR end "rule__DCLComponent__Group__0__Impl"
 
 
-    // $ANTLR start "rule__Component__Group__1"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1099:1: rule__Component__Group__1 : rule__Component__Group__1__Impl rule__Component__Group__2 ;
-    public final void rule__Component__Group__1() throws RecognitionException {
+    // $ANTLR start "rule__DCLComponent__Group__1"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1099:1: rule__DCLComponent__Group__1 : rule__DCLComponent__Group__1__Impl rule__DCLComponent__Group__2 ;
+    public final void rule__DCLComponent__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1103:1: ( rule__Component__Group__1__Impl rule__Component__Group__2 )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1104:2: rule__Component__Group__1__Impl rule__Component__Group__2
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1103:1: ( rule__DCLComponent__Group__1__Impl rule__DCLComponent__Group__2 )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1104:2: rule__DCLComponent__Group__1__Impl rule__DCLComponent__Group__2
             {
-            pushFollow(FOLLOW_rule__Component__Group__1__Impl_in_rule__Component__Group__12266);
-            rule__Component__Group__1__Impl();
+            pushFollow(FOLLOW_rule__DCLComponent__Group__1__Impl_in_rule__DCLComponent__Group__12266);
+            rule__DCLComponent__Group__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__Component__Group__2_in_rule__Component__Group__12269);
-            rule__Component__Group__2();
+            pushFollow(FOLLOW_rule__DCLComponent__Group__2_in_rule__DCLComponent__Group__12269);
+            rule__DCLComponent__Group__2();
 
             state._fsp--;
 
@@ -3010,35 +3010,35 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__Component__Group__1"
+    // $ANTLR end "rule__DCLComponent__Group__1"
 
 
-    // $ANTLR start "rule__Component__Group__1__Impl"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1111:1: rule__Component__Group__1__Impl : ( ( rule__Component__NameAssignment_1 ) ) ;
-    public final void rule__Component__Group__1__Impl() throws RecognitionException {
+    // $ANTLR start "rule__DCLComponent__Group__1__Impl"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1111:1: rule__DCLComponent__Group__1__Impl : ( ( rule__DCLComponent__NameAssignment_1 ) ) ;
+    public final void rule__DCLComponent__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1115:1: ( ( ( rule__Component__NameAssignment_1 ) ) )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1116:1: ( ( rule__Component__NameAssignment_1 ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1115:1: ( ( ( rule__DCLComponent__NameAssignment_1 ) ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1116:1: ( ( rule__DCLComponent__NameAssignment_1 ) )
             {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1116:1: ( ( rule__Component__NameAssignment_1 ) )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1117:1: ( rule__Component__NameAssignment_1 )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1116:1: ( ( rule__DCLComponent__NameAssignment_1 ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1117:1: ( rule__DCLComponent__NameAssignment_1 )
             {
-             before(grammarAccess.getComponentAccess().getNameAssignment_1()); 
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1118:1: ( rule__Component__NameAssignment_1 )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1118:2: rule__Component__NameAssignment_1
+             before(grammarAccess.getDCLComponentAccess().getNameAssignment_1()); 
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1118:1: ( rule__DCLComponent__NameAssignment_1 )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1118:2: rule__DCLComponent__NameAssignment_1
             {
-            pushFollow(FOLLOW_rule__Component__NameAssignment_1_in_rule__Component__Group__1__Impl2296);
-            rule__Component__NameAssignment_1();
+            pushFollow(FOLLOW_rule__DCLComponent__NameAssignment_1_in_rule__DCLComponent__Group__1__Impl2296);
+            rule__DCLComponent__NameAssignment_1();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getComponentAccess().getNameAssignment_1()); 
+             after(grammarAccess.getDCLComponentAccess().getNameAssignment_1()); 
 
             }
 
@@ -3057,21 +3057,21 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__Component__Group__1__Impl"
+    // $ANTLR end "rule__DCLComponent__Group__1__Impl"
 
 
-    // $ANTLR start "rule__Component__Group__2"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1128:1: rule__Component__Group__2 : rule__Component__Group__2__Impl ;
-    public final void rule__Component__Group__2() throws RecognitionException {
+    // $ANTLR start "rule__DCLComponent__Group__2"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1128:1: rule__DCLComponent__Group__2 : rule__DCLComponent__Group__2__Impl ;
+    public final void rule__DCLComponent__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1132:1: ( rule__Component__Group__2__Impl )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1133:2: rule__Component__Group__2__Impl
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1132:1: ( rule__DCLComponent__Group__2__Impl )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1133:2: rule__DCLComponent__Group__2__Impl
             {
-            pushFollow(FOLLOW_rule__Component__Group__2__Impl_in_rule__Component__Group__22326);
-            rule__Component__Group__2__Impl();
+            pushFollow(FOLLOW_rule__DCLComponent__Group__2__Impl_in_rule__DCLComponent__Group__22326);
+            rule__DCLComponent__Group__2__Impl();
 
             state._fsp--;
 
@@ -3090,12 +3090,12 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__Component__Group__2"
+    // $ANTLR end "rule__DCLComponent__Group__2"
 
 
-    // $ANTLR start "rule__Component__Group__2__Impl"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1139:1: rule__Component__Group__2__Impl : ( ';' ) ;
-    public final void rule__Component__Group__2__Impl() throws RecognitionException {
+    // $ANTLR start "rule__DCLComponent__Group__2__Impl"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1139:1: rule__DCLComponent__Group__2__Impl : ( ';' ) ;
+    public final void rule__DCLComponent__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
@@ -3106,9 +3106,9 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1144:1: ( ';' )
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1145:1: ';'
             {
-             before(grammarAccess.getComponentAccess().getSemicolonKeyword_2()); 
-            match(input,26,FOLLOW_26_in_rule__Component__Group__2__Impl2354); 
-             after(grammarAccess.getComponentAccess().getSemicolonKeyword_2()); 
+             before(grammarAccess.getDCLComponentAccess().getSemicolonKeyword_2()); 
+            match(input,26,FOLLOW_26_in_rule__DCLComponent__Group__2__Impl2354); 
+             after(grammarAccess.getDCLComponentAccess().getSemicolonKeyword_2()); 
 
             }
 
@@ -3127,26 +3127,26 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__Component__Group__2__Impl"
+    // $ANTLR end "rule__DCLComponent__Group__2__Impl"
 
 
-    // $ANTLR start "rule__SubSystem__Group__0"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1164:1: rule__SubSystem__Group__0 : rule__SubSystem__Group__0__Impl rule__SubSystem__Group__1 ;
-    public final void rule__SubSystem__Group__0() throws RecognitionException {
+    // $ANTLR start "rule__DCLSubSystem__Group__0"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1164:1: rule__DCLSubSystem__Group__0 : rule__DCLSubSystem__Group__0__Impl rule__DCLSubSystem__Group__1 ;
+    public final void rule__DCLSubSystem__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1168:1: ( rule__SubSystem__Group__0__Impl rule__SubSystem__Group__1 )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1169:2: rule__SubSystem__Group__0__Impl rule__SubSystem__Group__1
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1168:1: ( rule__DCLSubSystem__Group__0__Impl rule__DCLSubSystem__Group__1 )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1169:2: rule__DCLSubSystem__Group__0__Impl rule__DCLSubSystem__Group__1
             {
-            pushFollow(FOLLOW_rule__SubSystem__Group__0__Impl_in_rule__SubSystem__Group__02391);
-            rule__SubSystem__Group__0__Impl();
+            pushFollow(FOLLOW_rule__DCLSubSystem__Group__0__Impl_in_rule__DCLSubSystem__Group__02391);
+            rule__DCLSubSystem__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__SubSystem__Group__1_in_rule__SubSystem__Group__02394);
-            rule__SubSystem__Group__1();
+            pushFollow(FOLLOW_rule__DCLSubSystem__Group__1_in_rule__DCLSubSystem__Group__02394);
+            rule__DCLSubSystem__Group__1();
 
             state._fsp--;
 
@@ -3165,12 +3165,12 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__SubSystem__Group__0"
+    // $ANTLR end "rule__DCLSubSystem__Group__0"
 
 
-    // $ANTLR start "rule__SubSystem__Group__0__Impl"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1176:1: rule__SubSystem__Group__0__Impl : ( 'subSystem' ) ;
-    public final void rule__SubSystem__Group__0__Impl() throws RecognitionException {
+    // $ANTLR start "rule__DCLSubSystem__Group__0__Impl"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1176:1: rule__DCLSubSystem__Group__0__Impl : ( 'subSystem' ) ;
+    public final void rule__DCLSubSystem__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
@@ -3181,9 +3181,9 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1181:1: ( 'subSystem' )
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1182:1: 'subSystem'
             {
-             before(grammarAccess.getSubSystemAccess().getSubSystemKeyword_0()); 
-            match(input,28,FOLLOW_28_in_rule__SubSystem__Group__0__Impl2422); 
-             after(grammarAccess.getSubSystemAccess().getSubSystemKeyword_0()); 
+             before(grammarAccess.getDCLSubSystemAccess().getSubSystemKeyword_0()); 
+            match(input,28,FOLLOW_28_in_rule__DCLSubSystem__Group__0__Impl2422); 
+             after(grammarAccess.getDCLSubSystemAccess().getSubSystemKeyword_0()); 
 
             }
 
@@ -3202,26 +3202,26 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__SubSystem__Group__0__Impl"
+    // $ANTLR end "rule__DCLSubSystem__Group__0__Impl"
 
 
-    // $ANTLR start "rule__SubSystem__Group__1"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1195:1: rule__SubSystem__Group__1 : rule__SubSystem__Group__1__Impl rule__SubSystem__Group__2 ;
-    public final void rule__SubSystem__Group__1() throws RecognitionException {
+    // $ANTLR start "rule__DCLSubSystem__Group__1"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1195:1: rule__DCLSubSystem__Group__1 : rule__DCLSubSystem__Group__1__Impl rule__DCLSubSystem__Group__2 ;
+    public final void rule__DCLSubSystem__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1199:1: ( rule__SubSystem__Group__1__Impl rule__SubSystem__Group__2 )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1200:2: rule__SubSystem__Group__1__Impl rule__SubSystem__Group__2
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1199:1: ( rule__DCLSubSystem__Group__1__Impl rule__DCLSubSystem__Group__2 )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1200:2: rule__DCLSubSystem__Group__1__Impl rule__DCLSubSystem__Group__2
             {
-            pushFollow(FOLLOW_rule__SubSystem__Group__1__Impl_in_rule__SubSystem__Group__12453);
-            rule__SubSystem__Group__1__Impl();
+            pushFollow(FOLLOW_rule__DCLSubSystem__Group__1__Impl_in_rule__DCLSubSystem__Group__12453);
+            rule__DCLSubSystem__Group__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__SubSystem__Group__2_in_rule__SubSystem__Group__12456);
-            rule__SubSystem__Group__2();
+            pushFollow(FOLLOW_rule__DCLSubSystem__Group__2_in_rule__DCLSubSystem__Group__12456);
+            rule__DCLSubSystem__Group__2();
 
             state._fsp--;
 
@@ -3240,35 +3240,35 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__SubSystem__Group__1"
+    // $ANTLR end "rule__DCLSubSystem__Group__1"
 
 
-    // $ANTLR start "rule__SubSystem__Group__1__Impl"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1207:1: rule__SubSystem__Group__1__Impl : ( ( rule__SubSystem__NameAssignment_1 ) ) ;
-    public final void rule__SubSystem__Group__1__Impl() throws RecognitionException {
+    // $ANTLR start "rule__DCLSubSystem__Group__1__Impl"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1207:1: rule__DCLSubSystem__Group__1__Impl : ( ( rule__DCLSubSystem__NameAssignment_1 ) ) ;
+    public final void rule__DCLSubSystem__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1211:1: ( ( ( rule__SubSystem__NameAssignment_1 ) ) )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1212:1: ( ( rule__SubSystem__NameAssignment_1 ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1211:1: ( ( ( rule__DCLSubSystem__NameAssignment_1 ) ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1212:1: ( ( rule__DCLSubSystem__NameAssignment_1 ) )
             {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1212:1: ( ( rule__SubSystem__NameAssignment_1 ) )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1213:1: ( rule__SubSystem__NameAssignment_1 )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1212:1: ( ( rule__DCLSubSystem__NameAssignment_1 ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1213:1: ( rule__DCLSubSystem__NameAssignment_1 )
             {
-             before(grammarAccess.getSubSystemAccess().getNameAssignment_1()); 
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1214:1: ( rule__SubSystem__NameAssignment_1 )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1214:2: rule__SubSystem__NameAssignment_1
+             before(grammarAccess.getDCLSubSystemAccess().getNameAssignment_1()); 
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1214:1: ( rule__DCLSubSystem__NameAssignment_1 )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1214:2: rule__DCLSubSystem__NameAssignment_1
             {
-            pushFollow(FOLLOW_rule__SubSystem__NameAssignment_1_in_rule__SubSystem__Group__1__Impl2483);
-            rule__SubSystem__NameAssignment_1();
+            pushFollow(FOLLOW_rule__DCLSubSystem__NameAssignment_1_in_rule__DCLSubSystem__Group__1__Impl2483);
+            rule__DCLSubSystem__NameAssignment_1();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getSubSystemAccess().getNameAssignment_1()); 
+             after(grammarAccess.getDCLSubSystemAccess().getNameAssignment_1()); 
 
             }
 
@@ -3287,21 +3287,21 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__SubSystem__Group__1__Impl"
+    // $ANTLR end "rule__DCLSubSystem__Group__1__Impl"
 
 
-    // $ANTLR start "rule__SubSystem__Group__2"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1224:1: rule__SubSystem__Group__2 : rule__SubSystem__Group__2__Impl ;
-    public final void rule__SubSystem__Group__2() throws RecognitionException {
+    // $ANTLR start "rule__DCLSubSystem__Group__2"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1224:1: rule__DCLSubSystem__Group__2 : rule__DCLSubSystem__Group__2__Impl ;
+    public final void rule__DCLSubSystem__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1228:1: ( rule__SubSystem__Group__2__Impl )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1229:2: rule__SubSystem__Group__2__Impl
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1228:1: ( rule__DCLSubSystem__Group__2__Impl )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1229:2: rule__DCLSubSystem__Group__2__Impl
             {
-            pushFollow(FOLLOW_rule__SubSystem__Group__2__Impl_in_rule__SubSystem__Group__22513);
-            rule__SubSystem__Group__2__Impl();
+            pushFollow(FOLLOW_rule__DCLSubSystem__Group__2__Impl_in_rule__DCLSubSystem__Group__22513);
+            rule__DCLSubSystem__Group__2__Impl();
 
             state._fsp--;
 
@@ -3320,12 +3320,12 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__SubSystem__Group__2"
+    // $ANTLR end "rule__DCLSubSystem__Group__2"
 
 
-    // $ANTLR start "rule__SubSystem__Group__2__Impl"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1235:1: rule__SubSystem__Group__2__Impl : ( ';' ) ;
-    public final void rule__SubSystem__Group__2__Impl() throws RecognitionException {
+    // $ANTLR start "rule__DCLSubSystem__Group__2__Impl"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1235:1: rule__DCLSubSystem__Group__2__Impl : ( ';' ) ;
+    public final void rule__DCLSubSystem__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
@@ -3336,9 +3336,9 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1240:1: ( ';' )
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1241:1: ';'
             {
-             before(grammarAccess.getSubSystemAccess().getSemicolonKeyword_2()); 
-            match(input,26,FOLLOW_26_in_rule__SubSystem__Group__2__Impl2541); 
-             after(grammarAccess.getSubSystemAccess().getSemicolonKeyword_2()); 
+             before(grammarAccess.getDCLSubSystemAccess().getSemicolonKeyword_2()); 
+            match(input,26,FOLLOW_26_in_rule__DCLSubSystem__Group__2__Impl2541); 
+             after(grammarAccess.getDCLSubSystemAccess().getSemicolonKeyword_2()); 
 
             }
 
@@ -3357,26 +3357,26 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__SubSystem__Group__2__Impl"
+    // $ANTLR end "rule__DCLSubSystem__Group__2__Impl"
 
 
-    // $ANTLR start "rule__ArchitectureView__Group__0"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1260:1: rule__ArchitectureView__Group__0 : rule__ArchitectureView__Group__0__Impl rule__ArchitectureView__Group__1 ;
-    public final void rule__ArchitectureView__Group__0() throws RecognitionException {
+    // $ANTLR start "rule__DCLArchitectureView__Group__0"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1260:1: rule__DCLArchitectureView__Group__0 : rule__DCLArchitectureView__Group__0__Impl rule__DCLArchitectureView__Group__1 ;
+    public final void rule__DCLArchitectureView__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1264:1: ( rule__ArchitectureView__Group__0__Impl rule__ArchitectureView__Group__1 )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1265:2: rule__ArchitectureView__Group__0__Impl rule__ArchitectureView__Group__1
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1264:1: ( rule__DCLArchitectureView__Group__0__Impl rule__DCLArchitectureView__Group__1 )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1265:2: rule__DCLArchitectureView__Group__0__Impl rule__DCLArchitectureView__Group__1
             {
-            pushFollow(FOLLOW_rule__ArchitectureView__Group__0__Impl_in_rule__ArchitectureView__Group__02578);
-            rule__ArchitectureView__Group__0__Impl();
+            pushFollow(FOLLOW_rule__DCLArchitectureView__Group__0__Impl_in_rule__DCLArchitectureView__Group__02578);
+            rule__DCLArchitectureView__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ArchitectureView__Group__1_in_rule__ArchitectureView__Group__02581);
-            rule__ArchitectureView__Group__1();
+            pushFollow(FOLLOW_rule__DCLArchitectureView__Group__1_in_rule__DCLArchitectureView__Group__02581);
+            rule__DCLArchitectureView__Group__1();
 
             state._fsp--;
 
@@ -3395,12 +3395,12 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__ArchitectureView__Group__0"
+    // $ANTLR end "rule__DCLArchitectureView__Group__0"
 
 
-    // $ANTLR start "rule__ArchitectureView__Group__0__Impl"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1272:1: rule__ArchitectureView__Group__0__Impl : ( 'architectureView' ) ;
-    public final void rule__ArchitectureView__Group__0__Impl() throws RecognitionException {
+    // $ANTLR start "rule__DCLArchitectureView__Group__0__Impl"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1272:1: rule__DCLArchitectureView__Group__0__Impl : ( 'architectureView' ) ;
+    public final void rule__DCLArchitectureView__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
@@ -3411,9 +3411,9 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1277:1: ( 'architectureView' )
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1278:1: 'architectureView'
             {
-             before(grammarAccess.getArchitectureViewAccess().getArchitectureViewKeyword_0()); 
-            match(input,29,FOLLOW_29_in_rule__ArchitectureView__Group__0__Impl2609); 
-             after(grammarAccess.getArchitectureViewAccess().getArchitectureViewKeyword_0()); 
+             before(grammarAccess.getDCLArchitectureViewAccess().getArchitectureViewKeyword_0()); 
+            match(input,29,FOLLOW_29_in_rule__DCLArchitectureView__Group__0__Impl2609); 
+             after(grammarAccess.getDCLArchitectureViewAccess().getArchitectureViewKeyword_0()); 
 
             }
 
@@ -3432,26 +3432,26 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__ArchitectureView__Group__0__Impl"
+    // $ANTLR end "rule__DCLArchitectureView__Group__0__Impl"
 
 
-    // $ANTLR start "rule__ArchitectureView__Group__1"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1291:1: rule__ArchitectureView__Group__1 : rule__ArchitectureView__Group__1__Impl rule__ArchitectureView__Group__2 ;
-    public final void rule__ArchitectureView__Group__1() throws RecognitionException {
+    // $ANTLR start "rule__DCLArchitectureView__Group__1"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1291:1: rule__DCLArchitectureView__Group__1 : rule__DCLArchitectureView__Group__1__Impl rule__DCLArchitectureView__Group__2 ;
+    public final void rule__DCLArchitectureView__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1295:1: ( rule__ArchitectureView__Group__1__Impl rule__ArchitectureView__Group__2 )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1296:2: rule__ArchitectureView__Group__1__Impl rule__ArchitectureView__Group__2
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1295:1: ( rule__DCLArchitectureView__Group__1__Impl rule__DCLArchitectureView__Group__2 )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1296:2: rule__DCLArchitectureView__Group__1__Impl rule__DCLArchitectureView__Group__2
             {
-            pushFollow(FOLLOW_rule__ArchitectureView__Group__1__Impl_in_rule__ArchitectureView__Group__12640);
-            rule__ArchitectureView__Group__1__Impl();
+            pushFollow(FOLLOW_rule__DCLArchitectureView__Group__1__Impl_in_rule__DCLArchitectureView__Group__12640);
+            rule__DCLArchitectureView__Group__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ArchitectureView__Group__2_in_rule__ArchitectureView__Group__12643);
-            rule__ArchitectureView__Group__2();
+            pushFollow(FOLLOW_rule__DCLArchitectureView__Group__2_in_rule__DCLArchitectureView__Group__12643);
+            rule__DCLArchitectureView__Group__2();
 
             state._fsp--;
 
@@ -3470,35 +3470,35 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__ArchitectureView__Group__1"
+    // $ANTLR end "rule__DCLArchitectureView__Group__1"
 
 
-    // $ANTLR start "rule__ArchitectureView__Group__1__Impl"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1303:1: rule__ArchitectureView__Group__1__Impl : ( ( rule__ArchitectureView__NameAssignment_1 ) ) ;
-    public final void rule__ArchitectureView__Group__1__Impl() throws RecognitionException {
+    // $ANTLR start "rule__DCLArchitectureView__Group__1__Impl"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1303:1: rule__DCLArchitectureView__Group__1__Impl : ( ( rule__DCLArchitectureView__NameAssignment_1 ) ) ;
+    public final void rule__DCLArchitectureView__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1307:1: ( ( ( rule__ArchitectureView__NameAssignment_1 ) ) )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1308:1: ( ( rule__ArchitectureView__NameAssignment_1 ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1307:1: ( ( ( rule__DCLArchitectureView__NameAssignment_1 ) ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1308:1: ( ( rule__DCLArchitectureView__NameAssignment_1 ) )
             {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1308:1: ( ( rule__ArchitectureView__NameAssignment_1 ) )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1309:1: ( rule__ArchitectureView__NameAssignment_1 )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1308:1: ( ( rule__DCLArchitectureView__NameAssignment_1 ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1309:1: ( rule__DCLArchitectureView__NameAssignment_1 )
             {
-             before(grammarAccess.getArchitectureViewAccess().getNameAssignment_1()); 
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1310:1: ( rule__ArchitectureView__NameAssignment_1 )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1310:2: rule__ArchitectureView__NameAssignment_1
+             before(grammarAccess.getDCLArchitectureViewAccess().getNameAssignment_1()); 
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1310:1: ( rule__DCLArchitectureView__NameAssignment_1 )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1310:2: rule__DCLArchitectureView__NameAssignment_1
             {
-            pushFollow(FOLLOW_rule__ArchitectureView__NameAssignment_1_in_rule__ArchitectureView__Group__1__Impl2670);
-            rule__ArchitectureView__NameAssignment_1();
+            pushFollow(FOLLOW_rule__DCLArchitectureView__NameAssignment_1_in_rule__DCLArchitectureView__Group__1__Impl2670);
+            rule__DCLArchitectureView__NameAssignment_1();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getArchitectureViewAccess().getNameAssignment_1()); 
+             after(grammarAccess.getDCLArchitectureViewAccess().getNameAssignment_1()); 
 
             }
 
@@ -3517,21 +3517,21 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__ArchitectureView__Group__1__Impl"
+    // $ANTLR end "rule__DCLArchitectureView__Group__1__Impl"
 
 
-    // $ANTLR start "rule__ArchitectureView__Group__2"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1320:1: rule__ArchitectureView__Group__2 : rule__ArchitectureView__Group__2__Impl ;
-    public final void rule__ArchitectureView__Group__2() throws RecognitionException {
+    // $ANTLR start "rule__DCLArchitectureView__Group__2"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1320:1: rule__DCLArchitectureView__Group__2 : rule__DCLArchitectureView__Group__2__Impl ;
+    public final void rule__DCLArchitectureView__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1324:1: ( rule__ArchitectureView__Group__2__Impl )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1325:2: rule__ArchitectureView__Group__2__Impl
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1324:1: ( rule__DCLArchitectureView__Group__2__Impl )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1325:2: rule__DCLArchitectureView__Group__2__Impl
             {
-            pushFollow(FOLLOW_rule__ArchitectureView__Group__2__Impl_in_rule__ArchitectureView__Group__22700);
-            rule__ArchitectureView__Group__2__Impl();
+            pushFollow(FOLLOW_rule__DCLArchitectureView__Group__2__Impl_in_rule__DCLArchitectureView__Group__22700);
+            rule__DCLArchitectureView__Group__2__Impl();
 
             state._fsp--;
 
@@ -3550,12 +3550,12 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__ArchitectureView__Group__2"
+    // $ANTLR end "rule__DCLArchitectureView__Group__2"
 
 
-    // $ANTLR start "rule__ArchitectureView__Group__2__Impl"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1331:1: rule__ArchitectureView__Group__2__Impl : ( ';' ) ;
-    public final void rule__ArchitectureView__Group__2__Impl() throws RecognitionException {
+    // $ANTLR start "rule__DCLArchitectureView__Group__2__Impl"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1331:1: rule__DCLArchitectureView__Group__2__Impl : ( ';' ) ;
+    public final void rule__DCLArchitectureView__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
@@ -3566,9 +3566,9 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1336:1: ( ';' )
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1337:1: ';'
             {
-             before(grammarAccess.getArchitectureViewAccess().getSemicolonKeyword_2()); 
-            match(input,26,FOLLOW_26_in_rule__ArchitectureView__Group__2__Impl2728); 
-             after(grammarAccess.getArchitectureViewAccess().getSemicolonKeyword_2()); 
+             before(grammarAccess.getDCLArchitectureViewAccess().getSemicolonKeyword_2()); 
+            match(input,26,FOLLOW_26_in_rule__DCLArchitectureView__Group__2__Impl2728); 
+             after(grammarAccess.getDCLArchitectureViewAccess().getSemicolonKeyword_2()); 
 
             }
 
@@ -3587,26 +3587,26 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__ArchitectureView__Group__2__Impl"
+    // $ANTLR end "rule__DCLArchitectureView__Group__2__Impl"
 
 
-    // $ANTLR start "rule__SoftwareSystem__Group__0"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1356:1: rule__SoftwareSystem__Group__0 : rule__SoftwareSystem__Group__0__Impl rule__SoftwareSystem__Group__1 ;
-    public final void rule__SoftwareSystem__Group__0() throws RecognitionException {
+    // $ANTLR start "rule__DCLSoftwareSystem__Group__0"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1356:1: rule__DCLSoftwareSystem__Group__0 : rule__DCLSoftwareSystem__Group__0__Impl rule__DCLSoftwareSystem__Group__1 ;
+    public final void rule__DCLSoftwareSystem__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1360:1: ( rule__SoftwareSystem__Group__0__Impl rule__SoftwareSystem__Group__1 )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1361:2: rule__SoftwareSystem__Group__0__Impl rule__SoftwareSystem__Group__1
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1360:1: ( rule__DCLSoftwareSystem__Group__0__Impl rule__DCLSoftwareSystem__Group__1 )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1361:2: rule__DCLSoftwareSystem__Group__0__Impl rule__DCLSoftwareSystem__Group__1
             {
-            pushFollow(FOLLOW_rule__SoftwareSystem__Group__0__Impl_in_rule__SoftwareSystem__Group__02765);
-            rule__SoftwareSystem__Group__0__Impl();
+            pushFollow(FOLLOW_rule__DCLSoftwareSystem__Group__0__Impl_in_rule__DCLSoftwareSystem__Group__02765);
+            rule__DCLSoftwareSystem__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__SoftwareSystem__Group__1_in_rule__SoftwareSystem__Group__02768);
-            rule__SoftwareSystem__Group__1();
+            pushFollow(FOLLOW_rule__DCLSoftwareSystem__Group__1_in_rule__DCLSoftwareSystem__Group__02768);
+            rule__DCLSoftwareSystem__Group__1();
 
             state._fsp--;
 
@@ -3625,12 +3625,12 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__SoftwareSystem__Group__0"
+    // $ANTLR end "rule__DCLSoftwareSystem__Group__0"
 
 
-    // $ANTLR start "rule__SoftwareSystem__Group__0__Impl"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1368:1: rule__SoftwareSystem__Group__0__Impl : ( 'softwareSystem' ) ;
-    public final void rule__SoftwareSystem__Group__0__Impl() throws RecognitionException {
+    // $ANTLR start "rule__DCLSoftwareSystem__Group__0__Impl"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1368:1: rule__DCLSoftwareSystem__Group__0__Impl : ( 'softwareSystem' ) ;
+    public final void rule__DCLSoftwareSystem__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
@@ -3641,9 +3641,9 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1373:1: ( 'softwareSystem' )
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1374:1: 'softwareSystem'
             {
-             before(grammarAccess.getSoftwareSystemAccess().getSoftwareSystemKeyword_0()); 
-            match(input,30,FOLLOW_30_in_rule__SoftwareSystem__Group__0__Impl2796); 
-             after(grammarAccess.getSoftwareSystemAccess().getSoftwareSystemKeyword_0()); 
+             before(grammarAccess.getDCLSoftwareSystemAccess().getSoftwareSystemKeyword_0()); 
+            match(input,30,FOLLOW_30_in_rule__DCLSoftwareSystem__Group__0__Impl2796); 
+             after(grammarAccess.getDCLSoftwareSystemAccess().getSoftwareSystemKeyword_0()); 
 
             }
 
@@ -3662,26 +3662,26 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__SoftwareSystem__Group__0__Impl"
+    // $ANTLR end "rule__DCLSoftwareSystem__Group__0__Impl"
 
 
-    // $ANTLR start "rule__SoftwareSystem__Group__1"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1387:1: rule__SoftwareSystem__Group__1 : rule__SoftwareSystem__Group__1__Impl rule__SoftwareSystem__Group__2 ;
-    public final void rule__SoftwareSystem__Group__1() throws RecognitionException {
+    // $ANTLR start "rule__DCLSoftwareSystem__Group__1"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1387:1: rule__DCLSoftwareSystem__Group__1 : rule__DCLSoftwareSystem__Group__1__Impl rule__DCLSoftwareSystem__Group__2 ;
+    public final void rule__DCLSoftwareSystem__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1391:1: ( rule__SoftwareSystem__Group__1__Impl rule__SoftwareSystem__Group__2 )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1392:2: rule__SoftwareSystem__Group__1__Impl rule__SoftwareSystem__Group__2
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1391:1: ( rule__DCLSoftwareSystem__Group__1__Impl rule__DCLSoftwareSystem__Group__2 )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1392:2: rule__DCLSoftwareSystem__Group__1__Impl rule__DCLSoftwareSystem__Group__2
             {
-            pushFollow(FOLLOW_rule__SoftwareSystem__Group__1__Impl_in_rule__SoftwareSystem__Group__12827);
-            rule__SoftwareSystem__Group__1__Impl();
+            pushFollow(FOLLOW_rule__DCLSoftwareSystem__Group__1__Impl_in_rule__DCLSoftwareSystem__Group__12827);
+            rule__DCLSoftwareSystem__Group__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__SoftwareSystem__Group__2_in_rule__SoftwareSystem__Group__12830);
-            rule__SoftwareSystem__Group__2();
+            pushFollow(FOLLOW_rule__DCLSoftwareSystem__Group__2_in_rule__DCLSoftwareSystem__Group__12830);
+            rule__DCLSoftwareSystem__Group__2();
 
             state._fsp--;
 
@@ -3700,35 +3700,35 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__SoftwareSystem__Group__1"
+    // $ANTLR end "rule__DCLSoftwareSystem__Group__1"
 
 
-    // $ANTLR start "rule__SoftwareSystem__Group__1__Impl"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1399:1: rule__SoftwareSystem__Group__1__Impl : ( ( rule__SoftwareSystem__NameAssignment_1 ) ) ;
-    public final void rule__SoftwareSystem__Group__1__Impl() throws RecognitionException {
+    // $ANTLR start "rule__DCLSoftwareSystem__Group__1__Impl"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1399:1: rule__DCLSoftwareSystem__Group__1__Impl : ( ( rule__DCLSoftwareSystem__NameAssignment_1 ) ) ;
+    public final void rule__DCLSoftwareSystem__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1403:1: ( ( ( rule__SoftwareSystem__NameAssignment_1 ) ) )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1404:1: ( ( rule__SoftwareSystem__NameAssignment_1 ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1403:1: ( ( ( rule__DCLSoftwareSystem__NameAssignment_1 ) ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1404:1: ( ( rule__DCLSoftwareSystem__NameAssignment_1 ) )
             {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1404:1: ( ( rule__SoftwareSystem__NameAssignment_1 ) )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1405:1: ( rule__SoftwareSystem__NameAssignment_1 )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1404:1: ( ( rule__DCLSoftwareSystem__NameAssignment_1 ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1405:1: ( rule__DCLSoftwareSystem__NameAssignment_1 )
             {
-             before(grammarAccess.getSoftwareSystemAccess().getNameAssignment_1()); 
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1406:1: ( rule__SoftwareSystem__NameAssignment_1 )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1406:2: rule__SoftwareSystem__NameAssignment_1
+             before(grammarAccess.getDCLSoftwareSystemAccess().getNameAssignment_1()); 
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1406:1: ( rule__DCLSoftwareSystem__NameAssignment_1 )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1406:2: rule__DCLSoftwareSystem__NameAssignment_1
             {
-            pushFollow(FOLLOW_rule__SoftwareSystem__NameAssignment_1_in_rule__SoftwareSystem__Group__1__Impl2857);
-            rule__SoftwareSystem__NameAssignment_1();
+            pushFollow(FOLLOW_rule__DCLSoftwareSystem__NameAssignment_1_in_rule__DCLSoftwareSystem__Group__1__Impl2857);
+            rule__DCLSoftwareSystem__NameAssignment_1();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getSoftwareSystemAccess().getNameAssignment_1()); 
+             after(grammarAccess.getDCLSoftwareSystemAccess().getNameAssignment_1()); 
 
             }
 
@@ -3747,21 +3747,21 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__SoftwareSystem__Group__1__Impl"
+    // $ANTLR end "rule__DCLSoftwareSystem__Group__1__Impl"
 
 
-    // $ANTLR start "rule__SoftwareSystem__Group__2"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1416:1: rule__SoftwareSystem__Group__2 : rule__SoftwareSystem__Group__2__Impl ;
-    public final void rule__SoftwareSystem__Group__2() throws RecognitionException {
+    // $ANTLR start "rule__DCLSoftwareSystem__Group__2"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1416:1: rule__DCLSoftwareSystem__Group__2 : rule__DCLSoftwareSystem__Group__2__Impl ;
+    public final void rule__DCLSoftwareSystem__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1420:1: ( rule__SoftwareSystem__Group__2__Impl )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1421:2: rule__SoftwareSystem__Group__2__Impl
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1420:1: ( rule__DCLSoftwareSystem__Group__2__Impl )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1421:2: rule__DCLSoftwareSystem__Group__2__Impl
             {
-            pushFollow(FOLLOW_rule__SoftwareSystem__Group__2__Impl_in_rule__SoftwareSystem__Group__22887);
-            rule__SoftwareSystem__Group__2__Impl();
+            pushFollow(FOLLOW_rule__DCLSoftwareSystem__Group__2__Impl_in_rule__DCLSoftwareSystem__Group__22887);
+            rule__DCLSoftwareSystem__Group__2__Impl();
 
             state._fsp--;
 
@@ -3780,12 +3780,12 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__SoftwareSystem__Group__2"
+    // $ANTLR end "rule__DCLSoftwareSystem__Group__2"
 
 
-    // $ANTLR start "rule__SoftwareSystem__Group__2__Impl"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1427:1: rule__SoftwareSystem__Group__2__Impl : ( ';' ) ;
-    public final void rule__SoftwareSystem__Group__2__Impl() throws RecognitionException {
+    // $ANTLR start "rule__DCLSoftwareSystem__Group__2__Impl"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1427:1: rule__DCLSoftwareSystem__Group__2__Impl : ( ';' ) ;
+    public final void rule__DCLSoftwareSystem__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
@@ -3796,9 +3796,9 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1432:1: ( ';' )
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:1433:1: ';'
             {
-             before(grammarAccess.getSoftwareSystemAccess().getSemicolonKeyword_2()); 
-            match(input,26,FOLLOW_26_in_rule__SoftwareSystem__Group__2__Impl2915); 
-             after(grammarAccess.getSoftwareSystemAccess().getSemicolonKeyword_2()); 
+             before(grammarAccess.getDCLSoftwareSystemAccess().getSemicolonKeyword_2()); 
+            match(input,26,FOLLOW_26_in_rule__DCLSoftwareSystem__Group__2__Impl2915); 
+             after(grammarAccess.getDCLSoftwareSystemAccess().getSemicolonKeyword_2()); 
 
             }
 
@@ -3817,7 +3817,7 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__SoftwareSystem__Group__2__Impl"
+    // $ANTLR end "rule__DCLSoftwareSystem__Group__2__Impl"
 
 
     // $ANTLR start "rule__DCDecl__Group_0__0"
@@ -5631,25 +5631,25 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__Model__StructureElementsAssignment_2"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2139:1: rule__Model__StructureElementsAssignment_2 : ( ruleStructureElement ) ;
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2139:1: rule__Model__StructureElementsAssignment_2 : ( ruleDCLStructureElement ) ;
     public final void rule__Model__StructureElementsAssignment_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2143:1: ( ( ruleStructureElement ) )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2144:1: ( ruleStructureElement )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2143:1: ( ( ruleDCLStructureElement ) )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2144:1: ( ruleDCLStructureElement )
             {
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2144:1: ( ruleStructureElement )
-            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2145:1: ruleStructureElement
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2144:1: ( ruleDCLStructureElement )
+            // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2145:1: ruleDCLStructureElement
             {
-             before(grammarAccess.getModelAccess().getStructureElementsStructureElementParserRuleCall_2_0()); 
-            pushFollow(FOLLOW_ruleStructureElement_in_rule__Model__StructureElementsAssignment_24317);
-            ruleStructureElement();
+             before(grammarAccess.getModelAccess().getStructureElementsDCLStructureElementParserRuleCall_2_0()); 
+            pushFollow(FOLLOW_ruleDCLStructureElement_in_rule__Model__StructureElementsAssignment_24317);
+            ruleDCLStructureElement();
 
             state._fsp--;
 
-             after(grammarAccess.getModelAccess().getStructureElementsStructureElementParserRuleCall_2_0()); 
+             after(grammarAccess.getModelAccess().getStructureElementsDCLStructureElementParserRuleCall_2_0()); 
 
             }
 
@@ -5712,9 +5712,9 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
     // $ANTLR end "rule__Model__DCDeclAssignment_6"
 
 
-    // $ANTLR start "rule__Layer__NameAssignment_1"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2169:1: rule__Layer__NameAssignment_1 : ( RULE_ID ) ;
-    public final void rule__Layer__NameAssignment_1() throws RecognitionException {
+    // $ANTLR start "rule__DCLLayer__NameAssignment_1"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2169:1: rule__DCLLayer__NameAssignment_1 : ( RULE_ID ) ;
+    public final void rule__DCLLayer__NameAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
@@ -5725,9 +5725,9 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2174:1: ( RULE_ID )
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2175:1: RULE_ID
             {
-             before(grammarAccess.getLayerAccess().getNameIDTerminalRuleCall_1_0()); 
-            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__Layer__NameAssignment_14379); 
-             after(grammarAccess.getLayerAccess().getNameIDTerminalRuleCall_1_0()); 
+             before(grammarAccess.getDCLLayerAccess().getNameIDTerminalRuleCall_1_0()); 
+            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__DCLLayer__NameAssignment_14379); 
+             after(grammarAccess.getDCLLayerAccess().getNameIDTerminalRuleCall_1_0()); 
 
             }
 
@@ -5746,12 +5746,12 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__Layer__NameAssignment_1"
+    // $ANTLR end "rule__DCLLayer__NameAssignment_1"
 
 
-    // $ANTLR start "rule__Component__NameAssignment_1"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2184:1: rule__Component__NameAssignment_1 : ( RULE_ID ) ;
-    public final void rule__Component__NameAssignment_1() throws RecognitionException {
+    // $ANTLR start "rule__DCLComponent__NameAssignment_1"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2184:1: rule__DCLComponent__NameAssignment_1 : ( RULE_ID ) ;
+    public final void rule__DCLComponent__NameAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
@@ -5762,9 +5762,9 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2189:1: ( RULE_ID )
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2190:1: RULE_ID
             {
-             before(grammarAccess.getComponentAccess().getNameIDTerminalRuleCall_1_0()); 
-            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__Component__NameAssignment_14410); 
-             after(grammarAccess.getComponentAccess().getNameIDTerminalRuleCall_1_0()); 
+             before(grammarAccess.getDCLComponentAccess().getNameIDTerminalRuleCall_1_0()); 
+            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__DCLComponent__NameAssignment_14410); 
+             after(grammarAccess.getDCLComponentAccess().getNameIDTerminalRuleCall_1_0()); 
 
             }
 
@@ -5783,12 +5783,12 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__Component__NameAssignment_1"
+    // $ANTLR end "rule__DCLComponent__NameAssignment_1"
 
 
-    // $ANTLR start "rule__SubSystem__NameAssignment_1"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2199:1: rule__SubSystem__NameAssignment_1 : ( RULE_ID ) ;
-    public final void rule__SubSystem__NameAssignment_1() throws RecognitionException {
+    // $ANTLR start "rule__DCLSubSystem__NameAssignment_1"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2199:1: rule__DCLSubSystem__NameAssignment_1 : ( RULE_ID ) ;
+    public final void rule__DCLSubSystem__NameAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
@@ -5799,9 +5799,9 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2204:1: ( RULE_ID )
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2205:1: RULE_ID
             {
-             before(grammarAccess.getSubSystemAccess().getNameIDTerminalRuleCall_1_0()); 
-            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__SubSystem__NameAssignment_14441); 
-             after(grammarAccess.getSubSystemAccess().getNameIDTerminalRuleCall_1_0()); 
+             before(grammarAccess.getDCLSubSystemAccess().getNameIDTerminalRuleCall_1_0()); 
+            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__DCLSubSystem__NameAssignment_14441); 
+             after(grammarAccess.getDCLSubSystemAccess().getNameIDTerminalRuleCall_1_0()); 
 
             }
 
@@ -5820,12 +5820,12 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__SubSystem__NameAssignment_1"
+    // $ANTLR end "rule__DCLSubSystem__NameAssignment_1"
 
 
-    // $ANTLR start "rule__ArchitectureView__NameAssignment_1"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2214:1: rule__ArchitectureView__NameAssignment_1 : ( RULE_ID ) ;
-    public final void rule__ArchitectureView__NameAssignment_1() throws RecognitionException {
+    // $ANTLR start "rule__DCLArchitectureView__NameAssignment_1"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2214:1: rule__DCLArchitectureView__NameAssignment_1 : ( RULE_ID ) ;
+    public final void rule__DCLArchitectureView__NameAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
@@ -5836,9 +5836,9 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2219:1: ( RULE_ID )
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2220:1: RULE_ID
             {
-             before(grammarAccess.getArchitectureViewAccess().getNameIDTerminalRuleCall_1_0()); 
-            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__ArchitectureView__NameAssignment_14472); 
-             after(grammarAccess.getArchitectureViewAccess().getNameIDTerminalRuleCall_1_0()); 
+             before(grammarAccess.getDCLArchitectureViewAccess().getNameIDTerminalRuleCall_1_0()); 
+            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__DCLArchitectureView__NameAssignment_14472); 
+             after(grammarAccess.getDCLArchitectureViewAccess().getNameIDTerminalRuleCall_1_0()); 
 
             }
 
@@ -5857,12 +5857,12 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__ArchitectureView__NameAssignment_1"
+    // $ANTLR end "rule__DCLArchitectureView__NameAssignment_1"
 
 
-    // $ANTLR start "rule__SoftwareSystem__NameAssignment_1"
-    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2229:1: rule__SoftwareSystem__NameAssignment_1 : ( RULE_ID ) ;
-    public final void rule__SoftwareSystem__NameAssignment_1() throws RecognitionException {
+    // $ANTLR start "rule__DCLSoftwareSystem__NameAssignment_1"
+    // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2229:1: rule__DCLSoftwareSystem__NameAssignment_1 : ( RULE_ID ) ;
+    public final void rule__DCLSoftwareSystem__NameAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
@@ -5873,9 +5873,9 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2234:1: ( RULE_ID )
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2235:1: RULE_ID
             {
-             before(grammarAccess.getSoftwareSystemAccess().getNameIDTerminalRuleCall_1_0()); 
-            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__SoftwareSystem__NameAssignment_14503); 
-             after(grammarAccess.getSoftwareSystemAccess().getNameIDTerminalRuleCall_1_0()); 
+             before(grammarAccess.getDCLSoftwareSystemAccess().getNameIDTerminalRuleCall_1_0()); 
+            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__DCLSoftwareSystem__NameAssignment_14503); 
+             after(grammarAccess.getDCLSoftwareSystemAccess().getNameIDTerminalRuleCall_1_0()); 
 
             }
 
@@ -5894,7 +5894,7 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__SoftwareSystem__NameAssignment_1"
+    // $ANTLR end "rule__DCLSoftwareSystem__NameAssignment_1"
 
 
     // $ANTLR start "rule__DCDecl__OnlyAssignment_0_0"
@@ -5951,17 +5951,17 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2264:1: ( ( RULE_ID ) )
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2265:1: ( RULE_ID )
             {
-             before(grammarAccess.getDCDeclAccess().getTStructureElementCrossReference_0_1_0()); 
+             before(grammarAccess.getDCDeclAccess().getTDCLStructureElementCrossReference_0_1_0()); 
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2266:1: ( RULE_ID )
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2267:1: RULE_ID
             {
-             before(grammarAccess.getDCDeclAccess().getTStructureElementIDTerminalRuleCall_0_1_0_1()); 
+             before(grammarAccess.getDCDeclAccess().getTDCLStructureElementIDTerminalRuleCall_0_1_0_1()); 
             match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__DCDecl__TAssignment_0_14569); 
-             after(grammarAccess.getDCDeclAccess().getTStructureElementIDTerminalRuleCall_0_1_0_1()); 
+             after(grammarAccess.getDCDeclAccess().getTDCLStructureElementIDTerminalRuleCall_0_1_0_1()); 
 
             }
 
-             after(grammarAccess.getDCDeclAccess().getTStructureElementCrossReference_0_1_0()); 
+             after(grammarAccess.getDCDeclAccess().getTDCLStructureElementCrossReference_0_1_0()); 
 
             }
 
@@ -6078,17 +6078,17 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2313:1: ( ( RULE_ID ) )
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2314:1: ( RULE_ID )
             {
-             before(grammarAccess.getDCDeclAccess().getTypeStructureElementCrossReference_0_4_0()); 
+             before(grammarAccess.getDCDeclAccess().getTypeDCLStructureElementCrossReference_0_4_0()); 
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2315:1: ( RULE_ID )
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2316:1: RULE_ID
             {
-             before(grammarAccess.getDCDeclAccess().getTypeStructureElementIDTerminalRuleCall_0_4_0_1()); 
+             before(grammarAccess.getDCDeclAccess().getTypeDCLStructureElementIDTerminalRuleCall_0_4_0_1()); 
             match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__DCDecl__TypeAssignment_0_44670); 
-             after(grammarAccess.getDCDeclAccess().getTypeStructureElementIDTerminalRuleCall_0_4_0_1()); 
+             after(grammarAccess.getDCDeclAccess().getTypeDCLStructureElementIDTerminalRuleCall_0_4_0_1()); 
 
             }
 
-             after(grammarAccess.getDCDeclAccess().getTypeStructureElementCrossReference_0_4_0()); 
+             after(grammarAccess.getDCDeclAccess().getTypeDCLStructureElementCrossReference_0_4_0()); 
 
             }
 
@@ -6123,17 +6123,17 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2332:1: ( ( RULE_ID ) )
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2333:1: ( RULE_ID )
             {
-             before(grammarAccess.getDCDeclAccess().getTStructureElementCrossReference_1_0_0()); 
+             before(grammarAccess.getDCDeclAccess().getTDCLStructureElementCrossReference_1_0_0()); 
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2334:1: ( RULE_ID )
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2335:1: RULE_ID
             {
-             before(grammarAccess.getDCDeclAccess().getTStructureElementIDTerminalRuleCall_1_0_0_1()); 
+             before(grammarAccess.getDCDeclAccess().getTDCLStructureElementIDTerminalRuleCall_1_0_0_1()); 
             match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__DCDecl__TAssignment_1_04709); 
-             after(grammarAccess.getDCDeclAccess().getTStructureElementIDTerminalRuleCall_1_0_0_1()); 
+             after(grammarAccess.getDCDeclAccess().getTDCLStructureElementIDTerminalRuleCall_1_0_0_1()); 
 
             }
 
-             after(grammarAccess.getDCDeclAccess().getTStructureElementCrossReference_1_0_0()); 
+             after(grammarAccess.getDCDeclAccess().getTDCLStructureElementCrossReference_1_0_0()); 
 
             }
 
@@ -6250,17 +6250,17 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2381:1: ( ( RULE_ID ) )
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2382:1: ( RULE_ID )
             {
-             before(grammarAccess.getDCDeclAccess().getTypeStructureElementCrossReference_1_3_0()); 
+             before(grammarAccess.getDCDeclAccess().getTypeDCLStructureElementCrossReference_1_3_0()); 
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2383:1: ( RULE_ID )
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2384:1: RULE_ID
             {
-             before(grammarAccess.getDCDeclAccess().getTypeStructureElementIDTerminalRuleCall_1_3_0_1()); 
+             before(grammarAccess.getDCDeclAccess().getTypeDCLStructureElementIDTerminalRuleCall_1_3_0_1()); 
             match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__DCDecl__TypeAssignment_1_34810); 
-             after(grammarAccess.getDCDeclAccess().getTypeStructureElementIDTerminalRuleCall_1_3_0_1()); 
+             after(grammarAccess.getDCDeclAccess().getTypeDCLStructureElementIDTerminalRuleCall_1_3_0_1()); 
 
             }
 
-             after(grammarAccess.getDCDeclAccess().getTypeStructureElementCrossReference_1_3_0()); 
+             after(grammarAccess.getDCDeclAccess().getTypeDCLStructureElementCrossReference_1_3_0()); 
 
             }
 
@@ -6295,17 +6295,17 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2400:1: ( ( RULE_ID ) )
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2401:1: ( RULE_ID )
             {
-             before(grammarAccess.getDCDeclAccess().getTStructureElementCrossReference_2_0_0()); 
+             before(grammarAccess.getDCDeclAccess().getTDCLStructureElementCrossReference_2_0_0()); 
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2402:1: ( RULE_ID )
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2403:1: RULE_ID
             {
-             before(grammarAccess.getDCDeclAccess().getTStructureElementIDTerminalRuleCall_2_0_0_1()); 
+             before(grammarAccess.getDCDeclAccess().getTDCLStructureElementIDTerminalRuleCall_2_0_0_1()); 
             match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__DCDecl__TAssignment_2_04849); 
-             after(grammarAccess.getDCDeclAccess().getTStructureElementIDTerminalRuleCall_2_0_0_1()); 
+             after(grammarAccess.getDCDeclAccess().getTDCLStructureElementIDTerminalRuleCall_2_0_0_1()); 
 
             }
 
-             after(grammarAccess.getDCDeclAccess().getTStructureElementCrossReference_2_0_0()); 
+             after(grammarAccess.getDCDeclAccess().getTDCLStructureElementCrossReference_2_0_0()); 
 
             }
 
@@ -6463,17 +6463,17 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2464:1: ( ( RULE_ID ) )
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2465:1: ( RULE_ID )
             {
-             before(grammarAccess.getDCDeclAccess().getTypeStructureElementCrossReference_2_4_0()); 
+             before(grammarAccess.getDCDeclAccess().getTypeDCLStructureElementCrossReference_2_4_0()); 
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2466:1: ( RULE_ID )
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2467:1: RULE_ID
             {
-             before(grammarAccess.getDCDeclAccess().getTypeStructureElementIDTerminalRuleCall_2_4_0_1()); 
+             before(grammarAccess.getDCDeclAccess().getTypeDCLStructureElementIDTerminalRuleCall_2_4_0_1()); 
             match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__DCDecl__TypeAssignment_2_44981); 
-             after(grammarAccess.getDCDeclAccess().getTypeStructureElementIDTerminalRuleCall_2_4_0_1()); 
+             after(grammarAccess.getDCDeclAccess().getTypeDCLStructureElementIDTerminalRuleCall_2_4_0_1()); 
 
             }
 
-             after(grammarAccess.getDCDeclAccess().getTypeStructureElementCrossReference_2_4_0()); 
+             after(grammarAccess.getDCDeclAccess().getTypeDCLStructureElementCrossReference_2_4_0()); 
 
             }
 
@@ -6508,17 +6508,17 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2483:1: ( ( RULE_ID ) )
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2484:1: ( RULE_ID )
             {
-             before(grammarAccess.getDCDeclAccess().getTStructureElementCrossReference_3_0_0()); 
+             before(grammarAccess.getDCDeclAccess().getTDCLStructureElementCrossReference_3_0_0()); 
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2485:1: ( RULE_ID )
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2486:1: RULE_ID
             {
-             before(grammarAccess.getDCDeclAccess().getTStructureElementIDTerminalRuleCall_3_0_0_1()); 
+             before(grammarAccess.getDCDeclAccess().getTDCLStructureElementIDTerminalRuleCall_3_0_0_1()); 
             match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__DCDecl__TAssignment_3_05020); 
-             after(grammarAccess.getDCDeclAccess().getTStructureElementIDTerminalRuleCall_3_0_0_1()); 
+             after(grammarAccess.getDCDeclAccess().getTDCLStructureElementIDTerminalRuleCall_3_0_0_1()); 
 
             }
 
-             after(grammarAccess.getDCDeclAccess().getTStructureElementCrossReference_3_0_0()); 
+             after(grammarAccess.getDCDeclAccess().getTDCLStructureElementCrossReference_3_0_0()); 
 
             }
 
@@ -6635,17 +6635,17 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2532:1: ( ( RULE_ID ) )
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2533:1: ( RULE_ID )
             {
-             before(grammarAccess.getDCDeclAccess().getTypeStructureElementCrossReference_3_3_0()); 
+             before(grammarAccess.getDCDeclAccess().getTypeDCLStructureElementCrossReference_3_3_0()); 
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2534:1: ( RULE_ID )
             // ../com.br.terra.dcl.ui/src-gen/com/br/terra/dcl/ui/contentassist/antlr/internal/InternalDCL.g:2535:1: RULE_ID
             {
-             before(grammarAccess.getDCDeclAccess().getTypeStructureElementIDTerminalRuleCall_3_3_0_1()); 
+             before(grammarAccess.getDCDeclAccess().getTypeDCLStructureElementIDTerminalRuleCall_3_3_0_1()); 
             match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__DCDecl__TypeAssignment_3_35121); 
-             after(grammarAccess.getDCDeclAccess().getTypeStructureElementIDTerminalRuleCall_3_3_0_1()); 
+             after(grammarAccess.getDCDeclAccess().getTypeDCLStructureElementIDTerminalRuleCall_3_3_0_1()); 
 
             }
 
-             after(grammarAccess.getDCDeclAccess().getTypeStructureElementCrossReference_3_3_0()); 
+             after(grammarAccess.getDCDeclAccess().getTypeDCLStructureElementCrossReference_3_3_0()); 
 
             }
 
@@ -6993,24 +6993,24 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
     public static final BitSet FOLLOW_ruleModel_in_entryRuleModel61 = new BitSet(new long[]{0x0000000000000000L});
     public static final BitSet FOLLOW_EOF_in_entryRuleModel68 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_rule__Model__Group__0_in_ruleModel94 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleStructureElement_in_entryRuleStructureElement121 = new BitSet(new long[]{0x0000000000000000L});
-    public static final BitSet FOLLOW_EOF_in_entryRuleStructureElement128 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__StructureElement__Alternatives_in_ruleStructureElement154 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleLayer_in_entryRuleLayer181 = new BitSet(new long[]{0x0000000000000000L});
-    public static final BitSet FOLLOW_EOF_in_entryRuleLayer188 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Layer__Group__0_in_ruleLayer214 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleComponent_in_entryRuleComponent241 = new BitSet(new long[]{0x0000000000000000L});
-    public static final BitSet FOLLOW_EOF_in_entryRuleComponent248 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Component__Group__0_in_ruleComponent274 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleSubSystem_in_entryRuleSubSystem301 = new BitSet(new long[]{0x0000000000000000L});
-    public static final BitSet FOLLOW_EOF_in_entryRuleSubSystem308 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__SubSystem__Group__0_in_ruleSubSystem334 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleArchitectureView_in_entryRuleArchitectureView361 = new BitSet(new long[]{0x0000000000000000L});
-    public static final BitSet FOLLOW_EOF_in_entryRuleArchitectureView368 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ArchitectureView__Group__0_in_ruleArchitectureView394 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleSoftwareSystem_in_entryRuleSoftwareSystem421 = new BitSet(new long[]{0x0000000000000000L});
-    public static final BitSet FOLLOW_EOF_in_entryRuleSoftwareSystem428 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__SoftwareSystem__Group__0_in_ruleSoftwareSystem454 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleDCLStructureElement_in_entryRuleDCLStructureElement121 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleDCLStructureElement128 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__DCLStructureElement__Alternatives_in_ruleDCLStructureElement154 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleDCLLayer_in_entryRuleDCLLayer181 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleDCLLayer188 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__DCLLayer__Group__0_in_ruleDCLLayer214 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleDCLComponent_in_entryRuleDCLComponent241 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleDCLComponent248 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__DCLComponent__Group__0_in_ruleDCLComponent274 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleDCLSubSystem_in_entryRuleDCLSubSystem301 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleDCLSubSystem308 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__DCLSubSystem__Group__0_in_ruleDCLSubSystem334 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleDCLArchitectureView_in_entryRuleDCLArchitectureView361 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleDCLArchitectureView368 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__DCLArchitectureView__Group__0_in_ruleDCLArchitectureView394 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleDCLSoftwareSystem_in_entryRuleDCLSoftwareSystem421 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleDCLSoftwareSystem428 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__DCLSoftwareSystem__Group__0_in_ruleDCLSoftwareSystem454 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_ruleDCDecl_in_entryRuleDCDecl481 = new BitSet(new long[]{0x0000000000000000L});
     public static final BitSet FOLLOW_EOF_in_entryRuleDCDecl488 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_rule__DCDecl__Alternatives_in_ruleDCDecl514 = new BitSet(new long[]{0x0000000000000002L});
@@ -7038,11 +7038,11 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
     public static final BitSet FOLLOW_ruleEntityType_in_entryRuleEntityType961 = new BitSet(new long[]{0x0000000000000000L});
     public static final BitSet FOLLOW_EOF_in_entryRuleEntityType968 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_rule__EntityType__EntityAssignment_in_ruleEntityType994 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleLayer_in_rule__StructureElement__Alternatives1030 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleComponent_in_rule__StructureElement__Alternatives1047 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleSubSystem_in_rule__StructureElement__Alternatives1064 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleArchitectureView_in_rule__StructureElement__Alternatives1081 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleSoftwareSystem_in_rule__StructureElement__Alternatives1098 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleDCLLayer_in_rule__DCLStructureElement__Alternatives1030 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleDCLComponent_in_rule__DCLStructureElement__Alternatives1047 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleDCLSubSystem_in_rule__DCLStructureElement__Alternatives1064 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleDCLArchitectureView_in_rule__DCLStructureElement__Alternatives1081 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleDCLSoftwareSystem_in_rule__DCLStructureElement__Alternatives1098 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_rule__DCDecl__Group_0__0_in_rule__DCDecl__Alternatives1130 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_rule__DCDecl__Group_1__0_in_rule__DCDecl__Alternatives1148 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_rule__DCDecl__Group_2__0_in_rule__DCDecl__Alternatives1166 = new BitSet(new long[]{0x0000000000000002L});
@@ -7083,46 +7083,46 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
     public static final BitSet FOLLOW_rule__Model__DCDeclAssignment_6_in_rule__Model__Group__6__Impl1911 = new BitSet(new long[]{0x0000000080000012L});
     public static final BitSet FOLLOW_rule__Model__Group__7__Impl_in_rule__Model__Group__71942 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_23_in_rule__Model__Group__7__Impl1970 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Layer__Group__0__Impl_in_rule__Layer__Group__02017 = new BitSet(new long[]{0x0000000000000010L});
-    public static final BitSet FOLLOW_rule__Layer__Group__1_in_rule__Layer__Group__02020 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_25_in_rule__Layer__Group__0__Impl2048 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Layer__Group__1__Impl_in_rule__Layer__Group__12079 = new BitSet(new long[]{0x0000000004000000L});
-    public static final BitSet FOLLOW_rule__Layer__Group__2_in_rule__Layer__Group__12082 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Layer__NameAssignment_1_in_rule__Layer__Group__1__Impl2109 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Layer__Group__2__Impl_in_rule__Layer__Group__22139 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_26_in_rule__Layer__Group__2__Impl2167 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Component__Group__0__Impl_in_rule__Component__Group__02204 = new BitSet(new long[]{0x0000000000000010L});
-    public static final BitSet FOLLOW_rule__Component__Group__1_in_rule__Component__Group__02207 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_27_in_rule__Component__Group__0__Impl2235 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Component__Group__1__Impl_in_rule__Component__Group__12266 = new BitSet(new long[]{0x0000000004000000L});
-    public static final BitSet FOLLOW_rule__Component__Group__2_in_rule__Component__Group__12269 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Component__NameAssignment_1_in_rule__Component__Group__1__Impl2296 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Component__Group__2__Impl_in_rule__Component__Group__22326 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_26_in_rule__Component__Group__2__Impl2354 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__SubSystem__Group__0__Impl_in_rule__SubSystem__Group__02391 = new BitSet(new long[]{0x0000000000000010L});
-    public static final BitSet FOLLOW_rule__SubSystem__Group__1_in_rule__SubSystem__Group__02394 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_28_in_rule__SubSystem__Group__0__Impl2422 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__SubSystem__Group__1__Impl_in_rule__SubSystem__Group__12453 = new BitSet(new long[]{0x0000000004000000L});
-    public static final BitSet FOLLOW_rule__SubSystem__Group__2_in_rule__SubSystem__Group__12456 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__SubSystem__NameAssignment_1_in_rule__SubSystem__Group__1__Impl2483 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__SubSystem__Group__2__Impl_in_rule__SubSystem__Group__22513 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_26_in_rule__SubSystem__Group__2__Impl2541 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ArchitectureView__Group__0__Impl_in_rule__ArchitectureView__Group__02578 = new BitSet(new long[]{0x0000000000000010L});
-    public static final BitSet FOLLOW_rule__ArchitectureView__Group__1_in_rule__ArchitectureView__Group__02581 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_29_in_rule__ArchitectureView__Group__0__Impl2609 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ArchitectureView__Group__1__Impl_in_rule__ArchitectureView__Group__12640 = new BitSet(new long[]{0x0000000004000000L});
-    public static final BitSet FOLLOW_rule__ArchitectureView__Group__2_in_rule__ArchitectureView__Group__12643 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ArchitectureView__NameAssignment_1_in_rule__ArchitectureView__Group__1__Impl2670 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ArchitectureView__Group__2__Impl_in_rule__ArchitectureView__Group__22700 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_26_in_rule__ArchitectureView__Group__2__Impl2728 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__SoftwareSystem__Group__0__Impl_in_rule__SoftwareSystem__Group__02765 = new BitSet(new long[]{0x0000000000000010L});
-    public static final BitSet FOLLOW_rule__SoftwareSystem__Group__1_in_rule__SoftwareSystem__Group__02768 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_30_in_rule__SoftwareSystem__Group__0__Impl2796 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__SoftwareSystem__Group__1__Impl_in_rule__SoftwareSystem__Group__12827 = new BitSet(new long[]{0x0000000004000000L});
-    public static final BitSet FOLLOW_rule__SoftwareSystem__Group__2_in_rule__SoftwareSystem__Group__12830 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__SoftwareSystem__NameAssignment_1_in_rule__SoftwareSystem__Group__1__Impl2857 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__SoftwareSystem__Group__2__Impl_in_rule__SoftwareSystem__Group__22887 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_26_in_rule__SoftwareSystem__Group__2__Impl2915 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__DCLLayer__Group__0__Impl_in_rule__DCLLayer__Group__02017 = new BitSet(new long[]{0x0000000000000010L});
+    public static final BitSet FOLLOW_rule__DCLLayer__Group__1_in_rule__DCLLayer__Group__02020 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_25_in_rule__DCLLayer__Group__0__Impl2048 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__DCLLayer__Group__1__Impl_in_rule__DCLLayer__Group__12079 = new BitSet(new long[]{0x0000000004000000L});
+    public static final BitSet FOLLOW_rule__DCLLayer__Group__2_in_rule__DCLLayer__Group__12082 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__DCLLayer__NameAssignment_1_in_rule__DCLLayer__Group__1__Impl2109 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__DCLLayer__Group__2__Impl_in_rule__DCLLayer__Group__22139 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_26_in_rule__DCLLayer__Group__2__Impl2167 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__DCLComponent__Group__0__Impl_in_rule__DCLComponent__Group__02204 = new BitSet(new long[]{0x0000000000000010L});
+    public static final BitSet FOLLOW_rule__DCLComponent__Group__1_in_rule__DCLComponent__Group__02207 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_27_in_rule__DCLComponent__Group__0__Impl2235 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__DCLComponent__Group__1__Impl_in_rule__DCLComponent__Group__12266 = new BitSet(new long[]{0x0000000004000000L});
+    public static final BitSet FOLLOW_rule__DCLComponent__Group__2_in_rule__DCLComponent__Group__12269 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__DCLComponent__NameAssignment_1_in_rule__DCLComponent__Group__1__Impl2296 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__DCLComponent__Group__2__Impl_in_rule__DCLComponent__Group__22326 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_26_in_rule__DCLComponent__Group__2__Impl2354 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__DCLSubSystem__Group__0__Impl_in_rule__DCLSubSystem__Group__02391 = new BitSet(new long[]{0x0000000000000010L});
+    public static final BitSet FOLLOW_rule__DCLSubSystem__Group__1_in_rule__DCLSubSystem__Group__02394 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_28_in_rule__DCLSubSystem__Group__0__Impl2422 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__DCLSubSystem__Group__1__Impl_in_rule__DCLSubSystem__Group__12453 = new BitSet(new long[]{0x0000000004000000L});
+    public static final BitSet FOLLOW_rule__DCLSubSystem__Group__2_in_rule__DCLSubSystem__Group__12456 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__DCLSubSystem__NameAssignment_1_in_rule__DCLSubSystem__Group__1__Impl2483 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__DCLSubSystem__Group__2__Impl_in_rule__DCLSubSystem__Group__22513 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_26_in_rule__DCLSubSystem__Group__2__Impl2541 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__DCLArchitectureView__Group__0__Impl_in_rule__DCLArchitectureView__Group__02578 = new BitSet(new long[]{0x0000000000000010L});
+    public static final BitSet FOLLOW_rule__DCLArchitectureView__Group__1_in_rule__DCLArchitectureView__Group__02581 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_29_in_rule__DCLArchitectureView__Group__0__Impl2609 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__DCLArchitectureView__Group__1__Impl_in_rule__DCLArchitectureView__Group__12640 = new BitSet(new long[]{0x0000000004000000L});
+    public static final BitSet FOLLOW_rule__DCLArchitectureView__Group__2_in_rule__DCLArchitectureView__Group__12643 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__DCLArchitectureView__NameAssignment_1_in_rule__DCLArchitectureView__Group__1__Impl2670 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__DCLArchitectureView__Group__2__Impl_in_rule__DCLArchitectureView__Group__22700 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_26_in_rule__DCLArchitectureView__Group__2__Impl2728 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__DCLSoftwareSystem__Group__0__Impl_in_rule__DCLSoftwareSystem__Group__02765 = new BitSet(new long[]{0x0000000000000010L});
+    public static final BitSet FOLLOW_rule__DCLSoftwareSystem__Group__1_in_rule__DCLSoftwareSystem__Group__02768 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_30_in_rule__DCLSoftwareSystem__Group__0__Impl2796 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__DCLSoftwareSystem__Group__1__Impl_in_rule__DCLSoftwareSystem__Group__12827 = new BitSet(new long[]{0x0000000004000000L});
+    public static final BitSet FOLLOW_rule__DCLSoftwareSystem__Group__2_in_rule__DCLSoftwareSystem__Group__12830 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__DCLSoftwareSystem__NameAssignment_1_in_rule__DCLSoftwareSystem__Group__1__Impl2857 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__DCLSoftwareSystem__Group__2__Impl_in_rule__DCLSoftwareSystem__Group__22887 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_26_in_rule__DCLSoftwareSystem__Group__2__Impl2915 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_rule__DCDecl__Group_0__0__Impl_in_rule__DCDecl__Group_0__02952 = new BitSet(new long[]{0x0000000000000010L});
     public static final BitSet FOLLOW_rule__DCDecl__Group_0__1_in_rule__DCDecl__Group_0__02955 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_rule__DCDecl__OnlyAssignment_0_0_in_rule__DCDecl__Group_0__0__Impl2982 = new BitSet(new long[]{0x0000000000000002L});
@@ -7185,13 +7185,13 @@ public class InternalDCLParser extends AbstractInternalContentAssistParser {
     public static final BitSet FOLLOW_rule__DCDecl__TypeAssignment_3_3_in_rule__DCDecl__Group_3__3__Impl4213 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_rule__DCDecl__Group_3__4__Impl_in_rule__DCDecl__Group_3__44243 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_26_in_rule__DCDecl__Group_3__4__Impl4271 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleStructureElement_in_rule__Model__StructureElementsAssignment_24317 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleDCLStructureElement_in_rule__Model__StructureElementsAssignment_24317 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_ruleDCDecl_in_rule__Model__DCDeclAssignment_64348 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_ID_in_rule__Layer__NameAssignment_14379 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_ID_in_rule__Component__NameAssignment_14410 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_ID_in_rule__SubSystem__NameAssignment_14441 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_ID_in_rule__ArchitectureView__NameAssignment_14472 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_ID_in_rule__SoftwareSystem__NameAssignment_14503 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_ID_in_rule__DCLLayer__NameAssignment_14379 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_ID_in_rule__DCLComponent__NameAssignment_14410 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_ID_in_rule__DCLSubSystem__NameAssignment_14441 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_ID_in_rule__DCLArchitectureView__NameAssignment_14472 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_ID_in_rule__DCLSoftwareSystem__NameAssignment_14503 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_ruleOnly_in_rule__DCDecl__OnlyAssignment_0_04534 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_RULE_ID_in_rule__DCDecl__TAssignment_0_14569 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_ruleCan_in_rule__DCDecl__CanAssignment_0_24604 = new BitSet(new long[]{0x0000000000000002L});
