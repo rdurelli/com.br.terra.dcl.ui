@@ -38,6 +38,7 @@ public class DCLParser extends AbstractContentAssistParser {
 				private static final long serialVersionUID = 1L;
 				{
 					put(grammarAccess.getDCLStructureElementAccess().getAlternatives(), "rule__DCLStructureElement__Alternatives");
+					put(grammarAccess.getDCLLayerAccess().getAlternatives_5(), "rule__DCLLayer__Alternatives_5");
 					put(grammarAccess.getDCLComponentAccess().getAlternatives_2(), "rule__DCLComponent__Alternatives_2");
 					put(grammarAccess.getInterfaceTypeAccess().getInterfaceTypeNameAlternatives_0(), "rule__InterfaceType__InterfaceTypeNameAlternatives_0");
 					put(grammarAccess.getDCDeclAccess().getAlternatives(), "rule__DCDecl__Alternatives");
@@ -46,13 +47,16 @@ public class DCLParser extends AbstractContentAssistParser {
 					put(grammarAccess.getEntityTypeAccess().getEntityAlternatives_0(), "rule__EntityType__EntityAlternatives_0");
 					put(grammarAccess.getModelAccess().getGroup(), "rule__Model__Group__0");
 					put(grammarAccess.getDCLLayerAccess().getGroup(), "rule__DCLLayer__Group__0");
-					put(grammarAccess.getDCLLayerAccess().getGroup_5(), "rule__DCLLayer__Group_5__0");
+					put(grammarAccess.getDCLLayerAccess().getGroup_5_0(), "rule__DCLLayer__Group_5_0__0");
+					put(grammarAccess.getDCLLayerAccess().getGroup_5_1(), "rule__DCLLayer__Group_5_1__0");
+					put(grammarAccess.getDCLLayerAccess().getGroup_5_2(), "rule__DCLLayer__Group_5_2__0");
 					put(grammarAccess.getDCLComponentAccess().getGroup(), "rule__DCLComponent__Group__0");
 					put(grammarAccess.getDCLComponentAccess().getGroup_2_0(), "rule__DCLComponent__Group_2_0__0");
 					put(grammarAccess.getDCLComponentAccess().getGroup_2_1(), "rule__DCLComponent__Group_2_1__0");
 					put(grammarAccess.getDCLComponentInterfaceAccess().getGroup(), "rule__DCLComponentInterface__Group__0");
 					put(grammarAccess.getDCLComponentInterfaceAccess().getGroup_4(), "rule__DCLComponentInterface__Group_4__0");
 					put(grammarAccess.getDCLSubSystemAccess().getGroup(), "rule__DCLSubSystem__Group__0");
+					put(grammarAccess.getDCLSubSystemAccess().getGroup_2(), "rule__DCLSubSystem__Group_2__0");
 					put(grammarAccess.getDCLModuleAccess().getGroup(), "rule__DCLModule__Group__0");
 					put(grammarAccess.getDCDeclAccess().getGroup_0(), "rule__DCDecl__Group_0__0");
 					put(grammarAccess.getDCDeclAccess().getGroup_1(), "rule__DCDecl__Group_1__0");
@@ -62,7 +66,9 @@ public class DCLParser extends AbstractContentAssistParser {
 					put(grammarAccess.getModelAccess().getDCDeclAssignment_6(), "rule__Model__DCDeclAssignment_6");
 					put(grammarAccess.getDCLLayerAccess().getNameAssignment_1(), "rule__DCLLayer__NameAssignment_1");
 					put(grammarAccess.getDCLLayerAccess().getLevelAssignment_4(), "rule__DCLLayer__LevelAssignment_4");
-					put(grammarAccess.getDCLLayerAccess().getSubSystemAssignment_5_2(), "rule__DCLLayer__SubSystemAssignment_5_2");
+					put(grammarAccess.getDCLLayerAccess().getLayerAssignment_5_0_2(), "rule__DCLLayer__LayerAssignment_5_0_2");
+					put(grammarAccess.getDCLLayerAccess().getSubSystemAssignment_5_1_2(), "rule__DCLLayer__SubSystemAssignment_5_1_2");
+					put(grammarAccess.getDCLLayerAccess().getComponentAssignment_5_2_2(), "rule__DCLLayer__ComponentAssignment_5_2_2");
 					put(grammarAccess.getDCLComponentAccess().getNameAssignment_1(), "rule__DCLComponent__NameAssignment_1");
 					put(grammarAccess.getDCLComponentAccess().getLayerAssignment_2_0_2(), "rule__DCLComponent__LayerAssignment_2_0_2");
 					put(grammarAccess.getDCLComponentAccess().getSubSystemAssignment_2_1_2(), "rule__DCLComponent__SubSystemAssignment_2_1_2");
@@ -71,6 +77,7 @@ public class DCLParser extends AbstractContentAssistParser {
 					put(grammarAccess.getDCLComponentInterfaceAccess().getInterfaceTypeAssignment_4_2(), "rule__DCLComponentInterface__InterfaceTypeAssignment_4_2");
 					put(grammarAccess.getInterfaceTypeAccess().getInterfaceTypeNameAssignment(), "rule__InterfaceType__InterfaceTypeNameAssignment");
 					put(grammarAccess.getDCLSubSystemAccess().getNameAssignment_1(), "rule__DCLSubSystem__NameAssignment_1");
+					put(grammarAccess.getDCLSubSystemAccess().getSubSystemAssignment_2_2(), "rule__DCLSubSystem__SubSystemAssignment_2_2");
 					put(grammarAccess.getDCLModuleAccess().getNameAssignment_1(), "rule__DCLModule__NameAssignment_1");
 					put(grammarAccess.getDCDeclAccess().getOnlyAssignment_0_0(), "rule__DCDecl__OnlyAssignment_0_0");
 					put(grammarAccess.getDCDeclAccess().getTAssignment_0_1(), "rule__DCDecl__TAssignment_0_1");
